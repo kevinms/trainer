@@ -12,41 +12,24 @@ locale.setlocale(locale.LC_ALL, '')
 
 db = db.DB('data.db')
 
-def json_load_byteified(file_handle):
-	return _byteify(
-		json.load(file_handle, object_hook=_byteify),
-		ignore_dicts=True
-	)
-
-def json_loads_byteified(json_text):
-	return _byteify(
-		json.loads(json_text, object_hook=_byteify),
-		ignore_dicts=True
-	)
-
-def _byteify(data, ignore_dicts = False):
-	if isinstance(data, unicode):
-		return data.encode('utf-8')
-	if isinstance(data, list):
-		return [ _byteify(item, ignore_dicts=True) for item in data ]
-	if isinstance(data, dict) and not ignore_dicts:
-		return {
-			_byteify(key, ignore_dicts=True): _byteify(value, ignore_dicts=True)
-			for key, value in data.iteritems()
-		}
-	return data
-
+def pretty(obj):
+	print json.dumps(obj, sort_keys=True, indent=4, separators=(',', ': '))
 
 def getAllLessons():
 	return {'lessons': db.query('SELECT ROWID, * FROM lesson')}
 
 def getCardsInLessons(lessonIDs):
-	ids = ','.join(str(x) for x in lessonIDs)
-	r = {'cards': db.query('''
-		SELECT * FROM card JOIN lesson_card ON (card.ROWID == lesson_card.fk_card)
-		WHERE lesson_card.fk_lesson IN (?)
-	''', (ids,) )}
-	return r
+	if len(lessonIDs) > 0:
+		ids = ','.join(str(x) for x in lessonIDs)
+		data = db.query('''
+			SELECT * FROM card JOIN lesson_card ON (card.ROWID == lesson_card.fk_card)
+			WHERE lesson_card.fk_lesson IN (?)
+		''', (ids,))
+	else:
+		data = db.query('''
+			SELECT * FROM card JOIN lesson_card ON (card.ROWID == lesson_card.fk_card)
+		''')
+	return {'cards': data}
 
 def drawCenter(w, s, offset = 0):
 	(y, x) = w.getmaxyx()
@@ -111,7 +94,8 @@ def run(win, lessonIDs):
 options = [ 
     ('h','help','This help.'),
     ('t:','train=','Training mode.'),
-    ('l','list','List of all lessons.')]
+    ('l','lessons','List of all lessons.'),
+    ('c','cards','List all cards in lessons fro -t.')]
 shortOpt = "".join([opt[0] for opt in options])
 longOpt = [opt[1] for opt in options]
 
@@ -131,20 +115,25 @@ def main():
 		usage()
 
 	lessonIDs = []
-	doList = False
+	doLessonList = False
+	doCardList = False
 	for o, a in opts:
 		if o in ('-h', '--help'):
 			usage()
 		elif o in ('-t', '--train'):
-			lessonIDs.append(int(a))
-		elif o in ('-l', '--list'):
-			doList = True
+			if int(a) != 0:
+				lessonIDs.append(int(a))
+		elif o in ('-l', '--lessons'):
+			doLessonList = True
+		elif o in ('-c', '--cards'):
+			doCardList = True
 		else:
 			assert False, 'Unhandled option: ' + str(o)
 	
-	if doList:
-		print json.dumps(getAllLessons(),
-			sort_keys=True, indent=4, separators=(',', ': '))
+	if doLessonList:
+		pretty(getAllLessons())
+	if doCardList:
+		pretty(getCardsInLessons(lessonIDs))
 	else:
 		wrapper(run, lessonIDs)
 
