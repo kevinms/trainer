@@ -1,0 +1,220 @@
+1,what's up (condition how),ちようしはどう
+1,i;me,わたし
+1,you (singular),あなた
+1,what's up?,ちようしはどう
+1,genius,てんさい
+1,bottom's up,かんぱい
+1,hello,こにちは
+1,good morning,おはい
+1,thank you,ありがと
+1,thanks a lot,どうもありがと
+1,thank you very much,ありがとうございます
+1,is happy,しあわせです
+1,is sad,かなしんでいます
+1,being angry,おこっています
+1,being wrong,まちがっています
+1,is right; is correct,ただしいです
+1,being tired,つかれています
+1,subject particle; but,〜が
+1,is good; can(permission),いいです（よいです）
+1,is bad,わるいです
+1,feeling; mood,きぶん
+1,is sick,きぶんがわるいです
+1,stomach,おなか
+1,being empty,すいています
+1,hungry,おなかがすいています
+1,food,たべもの
+1,bread,ぱん
+1,pasta,ぱすた
+1,rice(cooked); meal,ごはん
+1,potato,じやがいも
+1,vegetable,やさい
+1,fruit,くだもの
+1,meat,にく
+1,salad,さらだ
+1,apple,りんご
+1,banana,ばなな
+1,orange,おれんじ
+1,lemon,れもん
+1,soup,すーぷ
+1,egg,たまご
+1,cheese,ちーず
+1,chicken(meat),とりにく
+1,pork,ぶたにく
+1,beef,ぎゆうにく
+1,fish,さかな
+1,water(not hot),みず
+1,water(hot),おゆ
+1,coffee,こーひー
+1,tea,おちや
+1,beer,びーる
+1,wine,わいん
+1,milk,ぎゆうにゆう
+1,juice,じゆーす
+1,ice cream,あいすくりーむ
+1,sauce,そーす
+1,butter,ばたー
+1,oil,おいる
+1,is liked,すきです
+1,this; this one,これ
+1,that; that one,それ
+1,that; that one (far away),あれ
+1,is delicious,おいしいです
+1,is disgusting (food),まずいです
+1,to do,します
+1,to have; to exist (there is..),あいます
+1,no,～せん
+1,and; that (followed by sentenc),～よ
+1,at; in; on,～ど
+1,i like bread,わたしはぱんがすきです
+1,i don't like...,わたしは～すきではありません
+1,i don't like pasta,わたしはぱすたがすきでありません
+1,i like oranges,わたしはあらんじがすきです
+1,i don't like apples,わたしはりんごがすきではありません
+1,coffee is delicious,こーひーはおいしいです
+1,i like tea and coffee,わたしはおcひゃとこーひーがすきです
+1,123456789 10,一二三四五六七八九十
+1,japan,にほん
+1,america,おめりか
+1,japanese,にほんじん
+1,english,あめりcあじん
+1,i am american,わたしはあめりかじんです
+1,how about you?,あなたはどうですか？
+1,are you japanese?,あなたはにほんじんですか？
+1,i am not japanese,わたしはにほんじんではありません
+2,um...,あの
+2,now,いま
+2,English (language),えいご
+2,yes,ええ
+2,student,がくせい
+2,...language,～ご
+2,High School,こうこう
+2,P.M. (afternoon),ごご
+2,A.M. (morning),ごぜん
+2,...years old,～さい
+2,Mr./Mrs. ...,～さん
+2,o'clock,～じ
+2,...people,～じん
+2,major,せんこう
+2,teach / doctor / professor,せんせい
+2,That's right,そうです
+2,I see; Is that so?,そうですか
+2,university,だいがく
+2,telephone,でんわ
+2,friend,ともだち
+2,name,なまえ
+2,what,なに/なん
+2,Japan,にほん
+2,...year student,～ねんせい
+2,yes,はい
+2,half (ex. にじはん),はん
+2,number,ばんごう
+2,overseas student,りゅうがくせい
+2,I / me,わたし
+2,America,アメリカ
+2,Britain,イギリス
+2,Australia,オーストラリア
+2,Korea,かんこく
+2,Sweden,スウェーデン
+2,China,ちゅうがく
+2,science,かがく
+2,Asian studies,アジアけんきゅう
+2,economics,けいざい
+2,international relations,こくさいかんけい
+2,computer (science),コンピューター
+2,anthropology,じんるいがく
+2,politics,せいじ
+2,work; job,しごと
+2,doctor,いしゃ
+2,office worker,かいしゃいん
+2,high school student,こうこうせい
+2,housewife,しゅふ
+2,gradudate student,だいがくいんせい
+2,university student,だいがくせい
+2,lawyer,べんごし
+2,mother,おかあさん
+2,father,おとうさん
+2,elder sister (honorific),おねえさん
+2,older brother,おにいさん
+2,younger sister,いもうと
+2,younger brother,おとうと
+3,this (close to the speaker),これ
+3,that (close to the listener),それ
+3,that over there (away from speaker and listener),あれ
+3,which (of three or more),どれ
+3,this...,この
+3,that...,その
+3,that... (over there),あの
+3,which...,どの
+3,here (place physically near speaker),ここ
+3,there (place relatively near listener),そこ
+3,there (place physically distant from speaker and listener),あそこ
+3,where,どこ
+3,who,だれ
+3,delicious,おいしい
+3,fish,さかな
+3,pork cutlet,とんかつ
+3,meat; flesh,にく
+3,menu,メニュー
+3,vegetable,やさい
+3,pencil,えんぴつ
+3,umbrella,かさ
+3,handbad,かばん
+3,shoes,くつ
+3,purse,さいふ
+3,jeans,ジーンズ
+3,dictionary (more common),じしょ
+3,bicycle,じてんしゃ
+3,newspaper,しんぶん
+3,shirt,シャツ
+3,watch; clock,とけい
+3,notebook,ノート
+3,pen,ペン
+3,hat,ぼうし
+3,book,ほん
+3,coffee lounge,きっさてん
+3,bank,ぎんこう
+3,toilet,トイレ
+3,library,としょかん
+3,post office,ゆうびんきょく
+4,movie,えいが
+4,music,おんがく
+4,journal; magazine,ざっし
+4,sports,スポーツ
+4,date (romantic),デート
+4,tennis,テニス
+4,TV,テレビ
+4,ice cream,アイスクリーム
+4,breakfast,あさごはん
+4,alcohol / sake,さけ
+4,tea (usually / green),おちゃ
+4,coffee,コーヒー
+4,evening meal (longer),ばんごはん
+4,hamburger,ハンバーガー
+4,lunch,ひるごはん
+4,water (esp. cool / fresh / or drinking),みず/すい
+4,house,いえ/うち
+4,school,がっこう
+4,morning,あさ
+4,tomorrow,あした
+4,when,いつ
+4,today,きょう
+4,at about...,ごる
+4,tonight,こんばん
+4,Saturday,どようび
+4,Sunday,にちようび
+4,every day,まいにち
+4,every night,まいばん
+4,to go,いく
+4,to go back / to return (destination に/へ),かえる
+4,to listen / to hear (～を),きく
+4,to drink,のむ
+4,to speak / to talk (language を/で),はなす
+4,to read (～を),よむ
+4,to get up,おきる
+4,to eat,たべ
+4,to lie down / to sleep,ねる
+4,to see / to look at / to watch,み
+4,to come (destination ) (irr.),くる
+4,to do (irr.),する
+4,to study,べんきょうする

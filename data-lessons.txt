@@ -1,0 +1,4 @@
+1,Memrise: Japanese 1
+2,Genki Ch. 1
+3,Genki Ch. 2
+4,Genki Ch. 3
