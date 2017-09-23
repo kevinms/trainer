@@ -6,8 +6,8 @@
 1,bottom's up,かんぱい
 1,hello,こにちは
 1,good morning,おはい
-1,thank you,ありがと
-1,thanks a lot,どうもありがと
+1,thank you,ありがとう
+1,thanks a lot,どうもありがとう
 1,thank you very much,ありがとうございます
 1,is happy,しあわせです
 1,is sad,かなしんでいます
@@ -62,7 +62,7 @@
 1,is delicious,おいしいです
 1,is disgusting (food),まずいです
 1,to do,します
-1,to have; to exist (there is..),あいます
+1,to have; to exist (there is..),あります
 1,no,～せん
 1,and; that (followed by sentenc),～よ
 1,at; in; on,～ど
@@ -77,7 +77,7 @@
 1,japan,にほん
 1,america,おめりか
 1,japanese,にほんじん
-1,english,あめりcあじん
+1,english,アメリカじん
 1,i am american,わたしはあめりかじんです
 1,how about you?,あなたはどうですか？
 1,are you japanese?,あなたはにほんじんですか？
@@ -218,3 +218,22 @@
 4,to come (destination ) (irr.),くる
 4,to do (irr.),する
 4,to study,べんきょうする
+5,to eat / のみます / のまない,のむ
+6,very,たいへん
+6,not much,すくない
+6,quite; reasonably (adverb),けっこう
+6,really; truly; entirely; completely,まったく
+6,many; alot,おおい
+6,salt,しお
+6,long (distance or time) ながい,長い
+6,half (はんふん),半分
+7,building,たてもの
+7,exit (でぐち),出口
+7,enter (いりぐち),入り口
+7,which way,どちら
+7,intersection,こうさてん
+7,bank,ぎんこう
+7,hospital,びよういん
+8,week after next,再来週（さらいしゅう）
+8,make,つくる
+8,from / and then,から
