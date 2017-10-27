@@ -5,6 +5,7 @@ CREATE TABLE IF NOT EXISTS lesson (
 CREATE TABLE IF NOT EXISTS card (
 	side1 TEXT,
 	side2 TEXT,
+	side3 TEXT,
 	note TEXT
 );
 

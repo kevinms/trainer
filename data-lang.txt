@@ -1,239 +1,1735 @@
-1,what's up (condition how),ちようしはどう
-1,i;me,わたし
-1,you (singular),あなた
-1,what's up?,ちようしはどう
-1,genius,てんさい
-1,bottom's up,かんぱい
-1,hello,こにちは
-1,good morning,おはい
-1,thank you,ありがとう
-1,thanks a lot,どうもありがとう
-1,thank you very much,ありがとうございます
-1,is happy,しあわせです
-1,is sad,かなしんでいます
-1,being angry,おこっています
-1,being wrong,まちがっています
-1,is right; is correct,ただしいです
-1,being tired,つかれています
-1,subject particle; but,〜が
-1,is good; can(permission),いいです（よいです）
-1,is bad,わるいです
-1,feeling; mood,きぶん
-1,is sick,きぶんがわるいです
-1,stomach,おなか
-1,being empty,すいています
-1,hungry,おなかがすいています
-1,food,たべもの
-1,bread,ぱん
-1,pasta,ぱすた
-1,rice(cooked); meal,ごはん
-1,potato,じやがいも
-1,vegetable,やさい
-1,fruit,くだもの
-1,meat,にく
-1,salad,さらだ
-1,apple,りんご
-1,banana,ばなな
-1,orange,おれんじ
-1,lemon,れもん
-1,soup,すーぷ
-1,egg,たまご
-1,cheese,ちーず
-1,chicken(meat),とりにく
-1,pork,ぶたにく
-1,beef,ぎゆうにく
-1,fish,さかな
-1,water(not hot),みず
-1,water(hot),おゆ
-1,coffee,こーひー
-1,tea,おちや
-1,beer,びーる
-1,wine,わいん
-1,milk,ぎゆうにゆう
-1,juice,じゆーす
-1,ice cream,あいすくりーむ
-1,sauce,そーす
-1,butter,ばたー
-1,oil,おいる
-1,is liked,すきです
-1,this; this one,これ
-1,that; that one,それ
-1,that; that one (far away),あれ
-1,is delicious,おいしいです
-1,is disgusting (food),まずいです
-1,to do,します
-1,to have; to exist (there is..),あります
-1,no,～せん
-1,and; that (followed by sentenc),～よ
-1,at; in; on,～ど
-1,i like bread,わたしはぱんがすきです
-1,i don't like...,わたしは～すきではありません
-1,i don't like pasta,わたしはぱすたがすきでありません
-1,i like oranges,わたしはあらんじがすきです
-1,i don't like apples,わたしはりんごがすきではありません
-1,coffee is delicious,こーひーはおいしいです
-1,i like tea and coffee,わたしはおcひゃとこーひーがすきです
-1,123456789 10,一二三四五六七八九十
-1,japan,にほん
-1,america,おめりか
-1,japanese,にほんじん
-1,english,アメリカじん
-1,i am american,わたしはあめりかじんです
-1,how about you?,あなたはどうですか？
-1,are you japanese?,あなたはにほんじんですか？
-1,i am not japanese,わたしはにほんじんではありません
-2,um...,あの
-2,now,いま
-2,English (language),えいご
-2,yes,ええ
-2,student,がくせい
-2,...language,～ご
-2,High School,こうこう
-2,P.M. (afternoon),ごご
-2,A.M. (morning),ごぜん
-2,...years old,～さい
-2,Mr./Mrs. ...,～さん
-2,o'clock,～じ
-2,...people,～じん
-2,major,せんこう
-2,teach / doctor / professor,せんせい
-2,That's right,そうです
-2,I see; Is that so?,そうですか
-2,university,だいがく
-2,telephone,でんわ
-2,friend,ともだち
-2,name,なまえ
-2,what,なに/なん
-2,Japan,にほん
-2,...year student,～ねんせい
-2,yes,はい
-2,half (ex. にじはん),はん
-2,number,ばんごう
-2,overseas student,りゅうがくせい
-2,I / me,わたし
-2,America,アメリカ
-2,Britain,イギリス
-2,Australia,オーストラリア
-2,Korea,かんこく
-2,Sweden,スウェーデン
-2,China,ちゅうがく
-2,science,かがく
-2,Asian studies,アジアけんきゅう
-2,economics,けいざい
-2,international relations,こくさいかんけい
-2,computer (science),コンピューター
-2,anthropology,じんるいがく
-2,politics,せいじ
-2,work; job,しごと
-2,doctor,いしゃ
-2,office worker,かいしゃいん
-2,high school student,こうこうせい
-2,housewife,しゅふ
-2,gradudate student,だいがくいんせい
-2,university student,だいがくせい
-2,lawyer,べんごし
-2,mother,おかあさん
-2,father,おとうさん
-2,elder sister (honorific),おねえさん
-2,older brother,おにいさん
-2,younger sister,いもうと
-2,younger brother,おとうと
-3,this (close to the speaker),これ
-3,that (close to the listener),それ
-3,that over there (away from speaker and listener),あれ
-3,which (of three or more),どれ
-3,this...,この
-3,that...,その
-3,that... (over there),あの
-3,which...,どの
-3,here (place physically near speaker),ここ
-3,there (place relatively near listener),そこ
-3,there (place physically distant from speaker and listener),あそこ
-3,where,どこ
-3,who,だれ
-3,delicious,おいしい
-3,fish,さかな
-3,pork cutlet,とんかつ
-3,meat; flesh,にく
-3,menu,メニュー
-3,vegetable,やさい
-3,pencil,えんぴつ
-3,umbrella,かさ
-3,handbad,かばん
-3,shoes,くつ
-3,purse,さいふ
-3,jeans,ジーンズ
-3,dictionary (more common),じしょ
-3,bicycle,じてんしゃ
-3,newspaper,しんぶん
-3,shirt,シャツ
-3,watch; clock,とけい
-3,notebook,ノート
-3,pen,ペン
-3,hat,ぼうし
-3,book,ほん
-3,coffee lounge,きっさてん
-3,bank,ぎんこう
-3,toilet,トイレ
-3,library,としょかん
-3,post office,ゆうびんきょく
-4,movie,えいが
-4,music,おんがく
-4,journal; magazine,ざっし
-4,sports,スポーツ
-4,date (romantic),デート
-4,tennis,テニス
-4,TV,テレビ
-4,ice cream,アイスクリーム
-4,breakfast,あさごはん
-4,alcohol / sake,さけ
-4,tea (usually / green),おちゃ
-4,coffee,コーヒー
-4,evening meal (longer),ばんごはん
-4,hamburger,ハンバーガー
-4,lunch,ひるごはん
-4,water (esp. cool / fresh / or drinking),みず/すい
-4,house,いえ/うち
-4,school,がっこう
-4,morning,あさ
-4,tomorrow,あした
-4,when,いつ
-4,today,きょう
-4,at about...,ごる
-4,tonight,こんばん
-4,Saturday,どようび
-4,Sunday,にちようび
-4,every day,まいにち
-4,every night,まいばん
-4,to go,いく
-4,to go back / to return (destination に/へ),かえる
-4,to listen / to hear (～を),きく
-4,to drink,のむ
-4,to speak / to talk (language を/で),はなす
-4,to read (～を),よむ
-4,to get up,おきる
-4,to eat,たべ
-4,to lie down / to sleep,ねる
-4,to see / to look at / to watch,み
-4,to come (destination ) (irr.),くる
-4,to do (irr.),する
-4,to study,べんきょうする
-5,to eat / のみます / のまない,のむ
-6,very,たいへん
-6,not much,すくない
-6,quite; reasonably (adverb),けっこう
-6,really; truly; entirely; completely,まったく
-6,many; alot,おおい
-6,salt,しお
-6,long (distance or time) ながい,長い
-6,half (はんふん),半分
-7,building,たてもの
-7,exit (でぐち),出口
-7,enter (いりぐち),入り口
-7,which way,どちら
-7,intersection,こうさてん
-7,bank,ぎんこう
-7,hospital,びよういん
-8,week after next,再来週（さらいしゅう）
-8,make,つくる
-8,from / and then,から
+1|おはよう|おはよう|Good morning
+1|おはようございます|おはようございます|Good morning (polite)
+1|こんにちは|こんにちは|Good afternoon
+1|こんばんは|こんばんは|Good evening
+1|さようなら|さようなら|Good-bye
+1|おやすみなさい|おやすみなさい|Good night
+1|ありがとう|ありがとう|Thank you
+1|ありがとうございます|ありがとうございます|Thank you (polite)
+1|すみません|すみません|Excuse me;I'm sorry
+1|いいえ|いいえ|No; Not at all
+1|いってきます|いってきます|I'll go and come back
+1|いってらっしゃい|いってらっしゃい|Please go and come back
+1|ただいま|ただいま|I'm home
+1|おかえりなさい|おかえりなさい|Welcome home
+1|いただきます|いただきます|Thank you for the meal (before eating)
+1|ごちそうさま|ごちそうさま|Thank you for the meal (after eating)
+1|はじめまして|はじめまして|How do you do?
+1|どうぞよろしく|どうぞよろしく|Nice to meet you
+2|あの|あの|um ...
+2|いま|いま|now
+2|えいご|えいご|English (language)
+2|ええ|ええ|yes
+2|がくせい|がくせい|student
+2|～ご|～ご|language
+2|にほんご|にほんご|Japanese language
+2|こうこう|こうこう|high school
+2|ごご|ごご|P.M.
+2|ごぜん|ごぜん|A.M.
+2|～さい|～さい|~ years old
+2|～さん|～さん|Mr. or Mrs. ~
+2|～じ|～じ|o'clock
+2|いちじ|いちじ|one o'clock
+2|～じん|～じん|people
+2|にほんじん|にほんじん|Japanese people
+2|せんせい|せんせい|teacher, Professor
+2|せんもん|せんもん|major
+2|そうです|そうです|That's right
+2|だいがく|だいがく|college; university
+2|でんわ|でんわ|telephone
+2|ともだち|ともだち|friend
+2|なまえ|なまえ|name
+2|なん|なん|what
+2|なに|なに|what
+2|にほん|にほん|Japan
+2|～ねんせい|～ねんせい|~ year student
+2|いちねんせい|いちねんせい|first year student
+2|はい|はい|yes
+2|はん|はん|half
+2|にじはん|にじはん|half past two
+2|ばんごう|ばんごう|number
+2|りゅうがくせい|りゅうがくせい|international student
+2|わたし|わたし|I
+2|アメリカ|あめりか|U.S.A.
+2|イギリス|いぎりす|Britain
+2|オーストラリア|おーすとらりあ|Austrailia
+2|かんこく|かんこく|Korea
+2|スウェーデン|すええでん|Sweden
+2|ちゅうごく|ちゅうごく|China
+2|かがく|かがく|science
+2|アジアけんきゅう|あじあけんきゅう|Asian studies
+2|けいざい|けいざい|economics
+2|こくさいかんけい|こくさいかんけい|international relations
+2|コンピューター|こんぴゅうたあ|computer
+2|じんるいがく|じんるいがく|anthropology
+2|せいじ|せいじ|politics
+2|ビジネス|びじねす|business
+2|ぶんがく|ぶんがく|literature
+2|れきし|れきし|history
+2|しごと|しごと|job; work; occupation
+2|いしゃ|いしゃ|doctor
+2|かいしゃいん|かいしゃいん|office worker
+2|こうこうせい|こうこうせい|high school student
+2|しゅふ|しゅふ|housewife
+2|だいがくいんせい|だいがくいんせい|graduate student
+2|だいがくせい|だいがくせい|college student
+2|べんごし|べんごし|lawyer
+2|おかあさん|おかあさん|mother
+2|おとうさん|おとうさん|father
+2|おねえさん|おねえさん|older sister
+2|おにいさん|おにいさん|older brother
+2|いもうと|いもうと|younger sister
+2|おとうと||younger brother
+2|ゼロ|ぜろ|zero
+2|れい|れい|zero
+2|いち|いち|one
+2|に|に|two
+2|さん|さん|three
+2|よん|よん|four
+2|し|し|four
+2|よ|よ|four
+2|ご|ご|five
+2|ろく|ろく|six
+2|なな|なな|seven
+2|しち|しち|seven
+2|はち|はち|eight
+2|きゅう|きゅう|nine
+2|く|く|nine
+2|じゅう|じゅう|ten
+2|じゅういち|じゅういち|eleven
+2|じゅうに|じゅうに|twelve
+2|じゅうさん|じゅうさん|thirteen
+2|じゅうよん|じゅうよん|fourteen
+2|じゅうし|じゅうし|fourteen
+2|じゅうご|じゅうご|fifteen
+2|じゅうろく|じゅうろく|sixteen
+2|じゅうなな|じゅうなな|seventeen
+2|じゅうしち|じゅうしち|seventeen
+2|じゅうはち|じゅうはち|eighteen
+2|じゅうきゅう|じゅうきゅう|nineteen
+2|じゅうく|じゅうく|nineteen
+2|にじゅう|にじゅう|twenty
+2|さんじゅう|さんじゅう|thirty
+2|よんじゅう|よんじゅう|forty
+2|ごじゅう|ごじゅう|fifty
+2|ろくじゅう|ろくじゅう|sixty
+2|ななじゅう|ななじゅう|seventy
+2|はちじゅう|はちじゅう|eighty
+2|きゅうじゅう|きゅうじゅう|ninety
+2|ひゃく|ひゃく|hundred
+2|いちじ|いちじ|one o'clock
+2|にじ|にじ|two o'clock
+2|さんじ|さんじ|three o'clock
+2|よじ|よじ|four o'clock
+2|ごじ|ごじ|five o'clock
+2|ろくじ|ろくじ|six o'clock
+2|しちじ|しちじ|seven o'clock
+2|はちじ|はちじ|eight o'clock
+2|くじ|くじ|nine o'clock
+2|じゅうじ|じゅうじ|ten o'clock
+2|じゅういちじ|じゅういちじ|eleven o'clock
+2|じゅうにじ|じゅうにじ|twelve o'clock
+2|いちじはん|いちじはん|one thirty
+2|いっぷん|いっぷん|one minute
+2|にふん|にふん|two minutes
+2|さんぷん|さんぷん|three minutes
+2|よんぷん|よんぷん|four minutes
+2|ごふん|ごふん|five minutes
+2|ろっぷん|ろっぷん|six minutes
+2|ななふん|ななふん|seven minutes
+2|はっぷん|はっぷん|eight minutes
+2|はちふん|はちふん|eight minutes
+2|きゅうふん|きゅうふん|nine minutes
+2|じゅっぷん|じゅっぷん|ten minutes
+2|じゅういっぷん|じゅういっぷん|eleven minutes
+2|じゅうにふん|じゅうにふん|twelve minutes
+2|じゅうさんぷん|じゅうさんぷん|thirteen minutes
+2|じゅうよんぷん|じゅうよんぷん|fourteen minutes
+2|じゅうごふん|じゅうごふん|fifteen minutes
+2|じゅうろっぷん|じゅうろっぷん|sixteen minutes
+2|じゅうななふん|じゅうななふん|seventeen minutes
+2|じゅうはっぷん|じゅうはっぷん|eighteen minutes
+2|じゅうはちふん|じゅうはちふん|eighteen minutes
+2|じゅうきゅうふん|じゅうきゅうふん|nineteen minutes
+2|にじゅっぷん|にじゅっぷん|twenty minutes
+2|さんじゅっぷん|さんじゅっぷん|thirty minutes
+2|なんさいですか|なんさいですか|How old are you?
+2|おいくつですか|おいくつですか|How old are you
+2|～さい|～さい|~ years old
+2|いっさい|いっさい|one year old
+2|にさい|にさい|two years old
+2|さんさい|さんさい|three years old
+2|よんさい|よんさい|four years old
+2|ごさい|ごさい|five years old
+2|ろくさい|ろくさい|six years old
+2|ななさい|ななさい|seven years old
+2|はっさい|はっさい|eight years old
+2|きゅうさい|きゅうさい|nine years old
+2|じゅっさい|じゅっさい|ten years old
+2|じゅういっさい|じゅういっさい|eleven years old
+2|はたち|はたち|twenty years old
+3|これ|これ|this one
+3|それ|それ|that one
+3|あれ|あれ|that one (over there)
+3|どれ|どれ|which one
+3|この|この|this ...
+3|その|その|that ...
+3|あの|あの|that ... (over there)
+3|どの|どの|which ...
+3|あそこ|あそこ|over there
+3|どこ|どこ|where
+3|だれ|だれ|who
+3|おいし|おいし|delicious
+3|さかな|さかな|fish
+3|とんかつ|とんかつ|pork cutlet
+3|にく|にく|meat
+3|メニュー|めにゅう|menu
+3|やさい|やさい|vegetable
+3|えんぴつ|えんぴつ|pencil
+3|かさ|かさ|umbrella
+3|かばん|かばん|bag
+3|くつ|くつ|shoes
+3|さいふ|さいふ|wallet
+3|ジーンス|じいんず|jeans
+3|じしょ|じしょ|dictionary
+3|じてんしゃ|じてんしゃ|bicycle
+3|しんぶん|しんぶん|newspaper
+3|テープ|てえぷ|tape
+3|とけい|とけい|watch; clock
+3|トレーナー|とれえんな|sweat shirt
+3|ンート|のうと|notebook
+3|ペン|ぺん|pen
+3|ぼうし|ぼうし|hat; cap
+3|ほん|ほん|book
+3|おてあらい|おてあらい|restroom
+3|きっさてん|きっさてん|cafe
+3|ぎんこう|ぎんこう|bank
+3|としょかん|としょかん|library
+3|ゆうびんきょく|ゆうびんきょく|post office
+3|アメリカ|あめりか|U.S.A.
+3|イギリス|いぎりす|Britain
+3|かんこく|かんこく|Korea
+3|ちゅうごく|ちゅうごく|China
+3|けいざい|けいざい|economics
+3|コンピューター|こんぴゅうたあ|computer
+3|ビジネス|びじねす|business
+3|れきし|れきし|history
+3|おかあさん|おかあさん|mother
+3|おとうさん|おとうさん|father
+3|いくら|いくら|how much
+3|～えん|～えん|~ yen
+3|たかい|たかい|expensive
+3|いらっしゃいませ|いらっしゃいませ|Welcome (to our store)
+3|～をおねがいします|～をおねがいします|~ please
+3|～をください|～をください|Please give me ~
+3|じゃあ|じゃあ|then ~; if that is the case ~!
+3|～をどうぞ|～をどうぞ|Here it is
+3|どうも|どうも|Thank you
+3|ひゃく|ひゃく|100
+3|にひゃく|にひゃく|200
+3|さんびゃく|さんびゃく|300
+3|よんひゃく|よんひゃく|400
+3|ごひゃく|ごひゃく|500
+3|ろっぴゃく|ろっぴゃく|600
+3|ななひゃく|ななひゃく|700
+3|はっぴゃく|はっぴゃく|800
+3|きゅうひゃく|きゅうひゃく|900
+3|せん|せん|1,000
+3|にせん|にせん|2,000
+3|さんぜん|さんぜん|3,000
+3|よんせん|よんせん|4,000
+3|ごせん|ごせん|5,000
+3|ろくせん|ろくせん|6,000
+3|ななせん|ななせん|7,000
+3|はっせん|はっせん|8,000
+3|きゅうせん|きゅうせん|9,000
+3|いちまん|いちまん|10,000
+3|にまん|にまん|20,000
+3|さんまん|さんまん|30,000
+3|よんまん|よんまん|40,000
+3|ごまん|ごまん|50,000
+3|ろくまん|ろくまん|60,000
+3|ななまん|ななまん|70,000
+3|はちまん|はちまん|80,000
+3|きゅうまん|きゅうまん|90,000
+3|でんき|でんき|light
+3|こくばん|こくばん|blackboard
+3|ほん|ほん|book
+3|けしゴム|けしごむ|eraser
+3|えんぴつ|えんぴつ|pencil
+3|ペン|ぺん|pen
+3|じしょ|じしょ|dictionary
+3|つくえ|つくえ|desk
+3|かばん|かばん|bag
+3|いす|いす|chair
+3|ビデオ|びでお|video player, VCR
+3|テレビ|てれび|television (set)
+3|ドア|どあ|door
+3|カーテン|かあてん|curtain
+3|まど|まど|window
+3|わかりました|わかりました|I understand, I understood
+3|わかりません|わかりません|I don't understand, I don't know
+3|ゆっくりいってください|ゆっくりいってください|Please speak slowly
+3|もういちどいってください|もういちどいってください|Please say it again
+3|ちょっとまってください|ちょっとまってむださい|Please wait
+4|映画|えいが|movie
+4|音楽|おんがく|music
+4|雑誌|ざっし|magazine
+4|スポーツ|スポーツ|sports
+4|デート|デート|date (romantic, not calender)
+4|テニス|テニス|tennis
+4|テレビ|テレビ|TV
+4|ビデオ|ビデオ|video tape; VCR
+4|朝御飯|あさごはん|breakfast
+4|お酒|おさけ|sake; alcohol
+4|お茶|おちゃ|green tea
+4|コーヒー|コーヒー|coffee
+4|晩御飯|ばんごはん|dinner
+4|ハンバーガー|ハンバーガー|hamburger
+4|昼御飯|ひるごはん|lunch
+4|水|みず|water
+4|家|いえ|home; house
+4|うち|うち|home; house; my place
+4|ＬＬ|エルエル|language lab
+4|学校|がっこう|school
+4|朝|あさ|morning
+4|あした|あした|tomorrow
+4|いつ|いつ|when
+4|今日|きょう|today
+4|～ごろ|～ごろ|at about
+4|今晩|こんばん|tonight
+4|週末|しゅうまつ|weekend
+4|土曜日|どようび|Saturday
+4|日曜日|にちようび|Sunday
+4|毎日|まいにち|every day
+4|毎晩|まいばん|every night
+4|行く|いく|to go
+4|帰る|かえる|to go back; to return
+4|聞く|きく|to listen; to hear
+4|飲む|のむ|to drink
+4|話す|はなす|to speak; to talk
+4|読む|よむ|to read
+4|起きる|おきる|to get up
+4|食べる|たべる|to eat
+4|寝る|ねる|to sleep; to go to sleep
+4|見る|みる|to see; to look at; to watch
+4|来る|くる|to come
+4|する|する|to do
+4|勉強する|べんきょうする|to study
+4|いい|いい|good
+4|早い|はやい|early
+4|あまり|あまり|not much
+4|全然|ぜんぜん|not at all
+4|大抵|たいてい|usually
+4|ちょっと|ちょっと|a little
+4|時々|ときどき|sometimes
+4|よく|よく|often, much
+4|そうですね|そうですね|That's right; Let me see
+4|でも|でも|but
+4|どうですか|どうですか|How about ...; How is ...
+5|アルバイト|アルバイト|part-time job
+5|買い物|かいもの|shopping
+5|クラス|クラス|class
+5|あなた|あなた|you
+5|犬|いぬ|dog
+5|お土産|おみやげ|souvenir
+5|子供|こども|child
+5|御飯|ごはん|rice; meal
+5|写真|しゃしん|picture; photograph
+5|机|つくえ|desk
+5|手紙|てがみ|letter
+5|猫|ねこ|cat
+5|パン|パン|bread
+5|人|ひと|person
+5|お寺|おてら|temple
+5|公園|こうえん|park
+5|スーパー|スーパー|supermarket
+5|デパート|デパート|department store
+5|バス停|バスてい|bus stop
+5|病院|びょういん|hospital
+5|ホテル|ホテル|hotel
+5|本屋|ほんや|bookstore
+5|町|まち|town; city
+5|レストラン|レストラン|restaurant
+5|昨日|きのう|yesterday
+5|さっき|さっき|a little while ago
+5|～時間|～じかん|hour
+5|一時間|いちじかん|one hour
+5|先週|せんしゅう|last week
+5|時|とき|when ~; at the time of ~
+5|月曜日|げつようび|Monday
+5|火曜日|かようび|Tuesday
+5|水曜日|すいようび|Wednesday
+5|木曜日|もくようび|Thursday
+5|金曜日|きんようび|Friday
+5|合う|あう|to meet; to see (a person)
+5|ある|ある|there is ~
+5|買う|かう|to buy
+5|書く|かく|to write
+5|撮る|とる|to take (pictures)
+5|待つ|まつ|to wait
+5|わかる|わかる|to understand
+5|いる|いる|(a person) is in ~; stays at ~
+5|～ぐらい|～ぐらい|about (approximate measurement)
+5|ごめんなさい|ごめんなさい|I'm sorry
+5|だから|だから|so; therefore
+5|たくさん|たくさん|many; a lot
+5|～と|～と|together with (a person)
+5|どうして|どうして|why
+5|一人で|ひとりで|alone
+5|もしもし|もしもし|Hello? (used on the phone)
+5|右|みぎ|right
+5|左|ひだり|left
+5|前|まえ|front
+5|後ろ|うしろ|back
+5|中|なか|inside
+5|上|うえ|on
+5|下|した|under
+5|そば|そば|near
+5|隣|となり|next
+5|間|あいだ|between
+5|そこ|そこ|there
+5|ここ|ここ|here
+5|教室|きょうしつ|classroom
+5|動物園|どうぶつえん|zoo
+5|国|くに|country
+5|クラブ|クラブ|club activity
+5|パーティー|パーティー|party
+5|テスト|テスト|test
+5|ラケット|ラケット|racket
+5|バスケット|バスケット|basketball
+5|ついたち|ついたち|1st (day of the month)
+5|ふつか|ふつか|2nd (day of the month)
+5|みっか|みっか|3rd (day of the month)
+5|よっか|よっか|4th (day of the month)
+5|いつか|いつか|5th (day of the month)
+5|むいか|むいか|6th (day of the month)
+5|なのか|なのか|7th (day of the month)
+5|ようか|ようか|8th (day of the month)
+5|ここのか|ここのか|9th (day of the month)
+5|とうか|とうか|10th (day of the month)
+5|じゅういちにち|じゅういちにち|11th (day of the month)
+5|じゅうににち|じゅうににち|12th (day of the month)
+5|じゅうさんにち|じゅうさんにち|13th (day of the month)
+5|じゅうよっか|じゅうよっか|14th (day of the month)
+5|じゅうごにち|じゅうごにち|15th (day of the month)
+5|じゅうろくにち|じゅうろくにち|16th (day of the month)
+5|じゅうしちにち|じゅうしちにち|17th (day of the month)
+5|じゅうはちにち|じゅうはちにち|18th (day of the month)
+5|じゅうくにち|じゅうくにち|19th (day of the month)
+5|はつか|はつか|20th (day of the month)
+5|にじゅういちにち|にじゅういちにち|21st (day of the month)
+5|にじゅうににち|にじゅうににち|22nd (day of the month)
+5|にじゅうさんにち|にじゅうさんにち|23rd (day of the month)
+5|にじゅうよっか|にじゅうよっか|24th (day of the month)
+5|にじゅうごにち|にじゅうごにち|25th (day of the month)
+5|にじゅうろくにち|にじゅうろくにち|26th (day of the month)
+5|にじゅうしちにち|にじゅうしちにち|27th (day of the month)
+5|にじゅうはちにち|にじゅうはちにち|28th (day of the month)
+5|にじゅうくにち|にじゅうくにち|29th (day of the month)
+5|さんじゅうにち|さんじゅうにち|30th (day of the month)
+5|さんじゅういちにち|さんじゅういちにち|31st (day of the month)
+5|一月|いちがつ|January
+5|二月|にがつ|February
+5|三月|さんがつ|March
+5|四月|しがつ|April
+5|五月|ごがつ|May
+5|六月|ろくがつ|June
+5|七月|しちがつ|July
+5|八月|はちがつ|August
+5|九月|くがつ|September
+5|十月|じゅうがつ|October
+5|十一月|じゅういちがつ|November
+5|十二月|じゅうにがつ|December
+5|おととい|おととい|the day before yesterday
+5|昨日|きのう|yesterday
+5|今日|きょう|today
+5|あした|あした|tomorrow
+5|あさって|あさって|the day after tomorrow
+5|先々週|せんせんしゅう|the week before last
+5|先週|せんしゅう|last week
+5|今週|こんしゅう|this week
+5|来週|らいしゅう|next week
+5|再来週|さらいしゅう|the week after next
+5|二カ月前|にかげつまえ|the month before last
+5|先月|せんげつ|last month
+5|今月|こんげつ|this month
+5|来月|らいげつ|next month
+5|再来月|さらいげつ|the month after next
+5|おととし|おととし|the year before last
+5|去年|きょねん|last year
+5|今年|ことし|this year
+5|来年|らいねん|next year
+5|再来年|さらいねん|the year after next
+6|海|うみ|sea
+6|切手|きって|postal stamps
+6|切符|きっぷ|ticket
+6|サーフィン|サーフィン|surfing
+6|宿題|しゅくだい|homework
+6|食べ物|たべもの|food
+6|誕生日|たんじょうび|birthday
+6|テスト|テスト|test
+6|天気|てんき|weather
+6|飲み物|のみもの|drink
+6|葉書|はがき|postcard
+6|バス|バス|bus
+6|飛行機|ひこうき|airplane
+6|部屋|へや|room
+6|僕|ぼく|I (used by men)
+6|休み|やすみ|holiday; day off; absence
+6|旅行|りょこう|travel
+6|新しい|あたらしい|new
+6|暑い|あつい|hot (weather)
+6|熱い|あつい|hot (objects)
+6|忙しい|いそがしい|busy (people or days)
+6|大きい|おおき|large
+6|面白い|おもしろい|interesting
+6|怖い|こわい|frightening
+6|寒い|さむい|cold (weather, not used for objects)
+6|楽しい|たのしい|fun
+6|小さい|ちいさい|small
+6|つめたい|つめたい|boring
+6|古い|ふるい|old (things, not used for people)
+6|難しい|むずかしい|difficult
+6|やさしい|やさしい|easy (problem); kind (person)
+6|安い|やすい|inexpensive; cheap (thing)
+6|嫌い|きらい|disgusted with; to dislike
+6|きれい|きれい|beautiful; clean
+6|元気|げんき|healthy; energetic
+6|静か|しずか|quiet
+6|好き|すき|fond of; to like
+6|大嫌い|だいきらい|to hate
+6|大好き|だいすき|very fond of; to love
+6|にぎやか|にぎやか|lively
+6|ハンサム|ハンサム|handsome
+6|暇|ひま|not busy; to have a lot of free time
+6|泳ぐ|およぐ|to swim
+6|聞く|きく|to ask
+6|乗る|のる|to ride; to board
+6|やる|やる|to do; to perform
+6|出かける|でかける|to go out
+6|一緒に|いっしょに|together
+6|それから|それから|and then
+6|大丈夫|だいじょうぶ|It's okay,; Not to worry.; Everything is under control.
+6|とても|とても|very
+6|どんな|どんな|what kind of ~
+6|～まい|～まい|counter for flat objects
+6|～まで|～まで|to (a place); as far as (a place); till (a time)
+6|なっとう|なっとう|fermented beans
+6|アイスクリーム|アイスクリーム|ice cream
+6|エアロビクス|エアロビクス|aerobics
+6|スキー|スキー|skiing
+6|スケート|スケート|skating
+6|ハードロック|ハードロック|hard rock
+6|ジャズ|ジャズ|jazz
+6|クラシック|クラシック|classical music
+6|窓口|まどぐち|counter
+6|はがき|はがき|postcard
+6|小包|こづつみ|parcel
+6|航空便|こうくうびん|airmail
+6|保険|ほけん|insurance
+6|書留|かきとめ|registered mail
+6|切手|きって|stamp
+6|エアログラム|エアログラム|aerogramme
+6|封書|ぐうしょ|letter
+6|船便|ふなびん|surface mail
+6|速達|そくたつ|special delivery
+6|焼き増し|やきまし|reprint
+6|現像|げんぞう|development
+6|光沢あり|こうたくあり|glossy finish
+6|光沢なし|こうたくなし|mat finish
+6|パノラマ|パノラマ|panoramic
+6|スライド|スライド|slide
+6|プリント|プリント|print
+6|仕上がり|しあがり|date or time something is ready
+6|２４枚撮り|にじゅうまいどり|24-print roll
+6|使い捨てカメラ|つかいすてカメラ|disposable camera
+6|ネガ|ネガ|negative
+6|フィルム|フィルム|film
+6|電池|でんち|battery
+6|引き換え券|ひきかえけん|receipt
+7|お金|おかね|money
+7|おばあさん|おばあさん|grandmother, old woman
+7|お風呂|おふろ|bath
+7|漢字|かんじ|kanji, Chinese character
+7|教科書|きょうかしょ|textbook
+7|今週|こんしゅう|this week
+7|市民病院|しみんびょういん|Municipal Hospital
+7|次|つぎ|next
+7|テレビゲーム|テレビゲーム|video game
+7|電気|でんき|electricity
+7|電車|でんしゃ|train
+7|荷物|にもつ|baggage
+7|ページ|ページ|page
+7|窓|まど|window
+7|夜|よる|night
+7|来週|らいしゅう|next week
+7|来年|らいねん|next year
+7|大変|たいへん|tough (situation)
+7|遊ぶ|あそぶ|to play, to spend time pleasantly
+7|急ぐ|いそぐ|to hurry
+7|お風呂に入る|おふろにはいる|to take a bath
+7|返す|かえす|to return (things)
+7|消す|けす|to turn off, to erase
+7|死ぬ|しぬ|to die
+7|座る|すわる|to sit down
+7|立つ|たつ|to stand up
+7|たばこを吸う|たばこをすう|to smoke
+7|使う|つかう|to use
+7|手伝う|てつだう|to help
+7|入る|はいる|to enter
+7|持つ|もつ|to carry, to hold
+7|休む|やすむ|to be absent from, to rest
+7|開ける|あける|to open (something)
+7|教える|おしえる|to teach, to instruct
+7|降りる|おりる|to get off
+7|借りる|かりる|to borrow
+7|閉める|しめる|to close (something)
+7|つける|つける|to turn on
+7|電話をかける|でんわをかける|to make a phone call
+7|忘れる|わすれる|to forget, to leave behind
+7|連れてくる|つれてくる|to bring (a person)
+7|持ってくる|もってくる|to bring (a thing)
+7|後で|あとで|later on
+7|遅ぐ|おそぐ|(do something) late
+7|～から|～から|because ~
+7|結構です|けっこうです|That would be fine,That wouldn't be necessary
+7|すぐ|すぐ|right away
+7|本当ですか|ほんとうですか|Really?
+7|ゆっくり|ゆっくり|slowly, leisurely, unhurriedly
+7|まっすぐ行く|まっすぐいく|go straight
+7|右に曲がる|みぎにまがる|turn right
+7|左に曲がる|ひだりにまがる|turn left
+7|一つ目の信号を右に曲がる|ひとつめのしんごうをみぎにまがる|turn right at the first signal
+7|二つ目の角を左に曲がる|ふたつめのかどをひだりにまがる|turn left at the second corner
+7|道を渡る|みちをわたる|cross the street
+7|道の左側|みちのひだりがわ|left side of the street
+7|道の右側|みちのみぎがわ|right side of the street
+7|北|きた|north
+7|南|みなみ|south
+7|東|ひがし|east
+7|西|にし|west
+8|姉|あね|(my) older sister
+8|アパート|アパート|apartment
+8|妹|いもうと|younger sister
+8|歌|うた|song
+8|弟|おとうと|younger brother
+8|男の人|おとこのひと|man
+8|お兄さん|おにいさん|older brother
+8|お姉さん|おねえさん|older sister
+8|女の人|おんなのひと|woman
+8|会社|かいしゃ|company
+8|家族|かぞく|family
+8|髪|かみ|hair
+8|兄弟|きょうだい|brothers and sisters
+8|国|くに|country, place of origin
+8|車|くるま|car
+8|コンビニ|コンビニ|convenience store
+8|食堂|しょくどう|cafeteria, dining commons
+8|父|ちち|(my) father
+8|Ｔシャツ|Ｔシャツ|T-shirt
+8|目|め|eye
+8|眼鏡|めがね|glasses
+8|頭がいい|あたまがいい|bright, smart, clever
+8|かっこいい|かっこういい|great-looking
+8|かわいい|かわいい|cute
+8|背が高い|せがたかい|tall
+8|背が低い|せがひくい|short (stature)
+8|長い|ながい|long
+8|速い|はやい|fast
+8|短い|みじかい|short (length)
+8|親切|しんせつ|kind
+8|便利|べんり|convenient
+8|歌う|うたう|to sing
+8|かぶる|かぶる|to put on (a hat)
+8|知る|しる|to get to know
+8|知っています|しっています|I know
+8|知りません|しりません|I do not know
+8|住む|すむ|to live
+8|はく|はく|to put on (items below your waist)
+8|太る|ふとる|to gain weight
+8|太っています|ふっています|to be on the heavy side
+8|かける|かける|to put on (glasses)
+8|着る|きる|to put on (clothes above your waist)
+8|勤める|つとめる|to work for
+8|やせる||to lose weight
+8|やせています|やせています|to be thin
+8|結婚する|けっこんする|to get married
+8|が|が|but
+8|何も|なにも|not ... anything
+8|～人|～にん|(counter for people)
+8|一人|ひとり|one person
+8|二人|ふたり|two people
+8|別に|べつに|not ... in particular
+8|もちろん|もちろん|of course
+8|よかったら|よかったら|if you like
+8|三人|さんにん|three people
+8|四人|よにん|four people
+8|五人|ごにん|five people
+8|六人|ろくにん|six people
+8|七人|ななにん|seven people
+8|八人|はちにん|eight people
+8|九人|きゅうにん|nine people
+8|十人|じゅうにん|ten people
+8|テニスをする|テニスをする|to play tennis
+8|バスケットをする|バスケットをする|to play basketball
+8|テレビゲームをする|テレビゲームをする|to play video games
+8|トランプをする|トランプをする|to play cards
+8|ギターを弾く|ギターをひく|to play the guitar
+8|ルームメイト|ルームメイト|roommate
+8|耳|みみ|ear
+8|鼻|はな|nose
+8|口|くち|mouth
+8|指|ゆび|finger
+8|歯|は|tooth
+8|首|くび|neck
+8|手|て|hand
+8|頭|あたま|head
+8|顔|かお|face
+8|肩|かた|shoulder
+8|胸|むね|chest
+8|背中|せなか|back
+8|おなか|おなか|stomach
+8|おしり|おしり|behind, rear, bottom, buttocks
+8|足|あし|leg
+8|お父さん|おとうさん|father (someone else's family)
+8|お母さん|おかあさん|mother (someone else's family)
+8|お兄さん|おにいさん|older brother (someone else's family)
+8|お姉さん|おねえさん|older sister (someone else's family)
+8|弟さん|おとうとさん|younger brother (someone else's family)
+8|妹さん|いもうとさん|younger sister (someone else's family)
+8|ご主人|ごしゅじん|husband (someone else's family)
+8|奥さん|おくさん|wife (someone else's family)
+8|おじいさん|おじいさん|grandfather (someone else's family)
+8|おばあさん|おばあさん|grandmother (someone else's family)
+8|お子さん|おこさん|child (someone else's family)
+8|父|ちち|father (one's own family - formal situation)
+8|母|はは|mother (one's own family - formal situation)
+8|兄|あに|older brother (one's own family - formal situation)
+8|姉|あね|older sister (one's own family - formal situation)
+8|弟|おとうと|younger brother (one's own family - formal situation)
+8|妹|いもうと|younger sister (one's own family - formal situation)
+8|主人|しゅじん|husband (one's own family - formal situation)
+8|夫|おっと|husband (one's own family - formal situation)
+8|家内|かない|wife (one's own family - formal situation)
+8|妻|つま|wife (one's own family - formal situation)
+8|祖父|そふ|grandfather (one's own family - formal situation)
+8|祖母|そぼ|grandmother (one's own family - formal situation)
+8|うちの子|うちのこ|child (one's own family - formal situation)
+8|お父さん|おとうさん|father (one's own family - informal situation)
+8|お母さん|おかあさん|mother (one's own family - informal situation)
+8|お兄さん|おにいさん|older brother (one's own family - informal situation)
+8|お姉さん|おねえさん|older sister (one's own family - informal situation)
+8|弟|おとうと|younger brother (one's own family - informal situation)
+8|妹|いもうと|younger sister (one's own family - informal situation)
+8|だんな|だんな|husband (one's own family - informal situation)
+8|うちの人|うちのひと|husband (one's own family - informal situation)
+8|女房|にょうぼう|wife (one's own family - informal situation)
+8|ワイフ|ワイフ|wife (one's own family - informal situation)
+8|かみさん|かみさん|wife (one's own family - informal situation)
+8|おじいさん|おじいさん|grandfather (one's own family - informal situation)
+8|おばあさん|おばあさん|grandmother (one's own family - informal situation)
+8|うちの子|うちのこ|child (one's own family - informal situation)
+9|あさって|あっさて|the day after tomorrow
+9|雨|あめ|rain
+9|会社員|かいしゃいん|office worker
+9|カメラ|カメラ|camera
+9|カラオケ|カラオケ|karaoke
+9|空気|くうき|air
+9|今朝|けさ|this morning
+9|今月|こんげつ|this month
+9|仕事|しごと|job, work, occupation
+9|大学生|だいがくせい|college student
+9|ディスコ|ディスコ|disco
+9|天気予報|てんきよほう|weather forecast
+9|所|ところ|place
+9|トマト|トマト|tomato
+9|夏|なつ|summer
+9|何か|なにか|something
+9|パーティー|パーティー|party
+9|バーベキュー|バーベキュー|barbecue
+9|はし|はし|chopsticks
+9|冬|ふゆ|winter
+9|ホームステイ|ホームステイ|homestay (living with a local family)
+9|毎週|まいしゅう|every week
+9|来月|らいげつ|next month
+9|上手|じょうず|skillful, good at ~
+9|下手|へた|clumsy, poor at ~
+9|有名|ゆうめい|famous
+9|雨が降る|あめがふる|it rains
+9|洗う|あらう|to wash
+9|言う|いう|to say
+9|いる|いる|to need
+9|遅くなる|おそくなる|to be late (for ~)
+9|思う|おもう|to think
+9|切る|きる|to cut
+9|作る|つくる|to make
+9|持っていく|もっていく|to take (something)
+9|じろじろ見る|じろじろみる|to stare (at ~)
+9|始める|はじめる|to begin
+9|運転する|うんてんする|to drive
+9|洗濯する|せんたくする|to do laundry
+9|掃除する|そうじする|to clean
+9|料理する||to cook
+9|ううん|ううん|uh-uh, no
+9|うん|うん|uh-huh, yes
+9|乾杯|かんぱい|Cheers! (a toast)
+9|残念（ですね）|ざんねん（ですね）|That's too bad
+9|まだ|まだ|not ~ yet
+9|みんなで|みんなで|all (of the people) together
+10|いい子|いいこ|good child
+10|色|いろ|color
+10|お弁当|おべんとう|boxed lunch
+10|温泉|おんせん|spa, hot spring
+10|かぶき|かぶき|Kabuki (traditional Japanese theater art)
+10|ギター|ギター|guitar
+10|薬|くすり|medicine
+10|薬を飲む|くすりをのむ|to take medicine
+10|コンサート|コンサート|concert
+10|今度|こんど|near future
+10|作文|さくぶん|essay, composition
+10|試験|しけん|exam
+10|新幹線|しんかんせん|Shinkansen, "Bullet Train"
+10|スキー|スキー|ski
+10|先月|せんげつ|last month
+10|単語|たんご|word, vocabulary
+10|ピアノ|ピアノ|piano
+10|病気|びょうき|illness, sickness
+10|青い|あおい|blue
+10|赤い|あかい|red
+10|黒い|くろい|black
+10|寂しい|さびしい|lonely
+10|白い|しろい|white
+10|若い|わかい|young
+10|意地悪|いじわる|mean-spirited
+10|踊る|おどる|to dance
+10|終る|おわる|(something) ends
+10|人気がある|にんきがある|to be popular
+10|始まる|はじまる|(something) begins
+10|弾く|ひく|to play (a string instrument or a piano)
+10|もらう|もらう|to get (from somebody)
+10|覚える|おぼえる|to memorize
+10|出る|でる|(1) to appear, to attend, (2) to exit
+10|運動する|うんどうする|to do physical exercise
+10|散歩する|さんぽする|to take a walk
+10|～から|～から|from ~
+10|是非|ぜひ|by all means
+10|ところで|ところで|by the way
+10|みんな|みんな|all
+10|もう|もう|already
+10|一つ|ひとつ|one (used to count small items)
+10|二つ|ふたつ|two (used to count small items)
+10|三つ|みっつ|three (used to count small items)
+10|四つ|よっつ|four (used to count small items)
+10|五つ|いつつ|five (used to count small items)
+10|六つ|むっつ|six (used to count small items)
+10|七つ|ななつ|seven (used to count small items)
+10|八つ|やっつ|eight (used to count small items)
+10|九つ|ここのつ|nine (used to count small items)
+10|十|とお|ten (used to count small items)
+10|黄色|きいろ|yellow
+10|茶色|ちゃいろ|brown
+10|緑|みどり|green
+10|グリーン|グリーン|green
+10|灰色|はいいろ|gray
+10|グレー|グレー|gray
+10|ピンク|ピンク|pink
+10|銀色|ぎんいろ|silver
+10|シルバー|シルバー|silver
+10|紫|むらさき|purple
+10|水色|みずいろ|light blue
+10|金色|きんいろ|gold
+10|ゴールド|ゴールド|gold
+11|秋|あき|fall
+11|医者|いしゃ|doctor
+11|駅|えき|station
+11|お金持ち|おかねもち|rich person
+11|顔|かお|face
+11|季節|きせつ|season
+11|クレジットカード|クレジットカード|credit card
+11|今年|ことし|this year
+11|サッカー|サッカー|soccer
+11|シャツ|シャツ|shirt
+11|生活|せいかつ|life, living
+11|世界|せかい|world
+11|地下鉄|ちかてつ|subway
+11|手袋|てぶくろ|gloves
+11|床屋|とこや|barber's
+11|春|はる|spring
+11|パンツ|パンツ|pants
+11|美容院|びよういん|beauty parlor
+11|便|びん|flight
+11|船|ふね|ship, boat
+11|野球|やきゅう|baseball
+11|有名人|ゆうめいじん|celebrity
+11|予約|よやく|reservation
+11|来学期|らいがっき|next semester
+11|りんご|りんご|apple
+11|暖かい|あたたかい|warm
+11|遅い|おそい|slow, late
+11|涼しい|すずしい|cool (weather - not used for things)
+11|冷たい|つめたい|cold (thing or people)
+11|眠い|ねむい|sleepy
+11|簡単|かんたん|easy, simple
+11|かかる|かかる|to take (amount of time or money)
+11|泊まる|とまる|to stay (at a hotel, etc.)
+11|なる|なる|to become
+11|払う|はらう|to pay
+11|決める|きめる|to decide
+11|練習する|れんしゅうする|to practice
+11|歩いて|あるいて|on foot
+11|一番|いちばん|best
+11|～か～|～か～|or
+11|～か月|～かげつ|for ~ months
+11|～後|～ご|in ~ time, after ~
+11|このごろ|このごろ|these days
+11|～週間|～しゅうかん|for ~ weeks
+11|～で|～で|by (means of transportation), with (a tool)
+11|どうやって|どうやって|how, by what means
+11|どちら|どちら|which
+11|どっち|どっち|which
+11|どのぐらい|どのぐらい|how much, how long
+11|～年|～ねん|~ years
+11|早く|はやく|(do something) early, fast
+11|喫煙席|きつえんせき|smoking seat
+11|窓側の席|まどがわのせき|window seat
+11|通路側の席|つうろがわのせき|aisle seat
+11|禁煙席|きんえんせき|nonsmoking seat
+11|普通|ふつう|local train
+11|急行|きゅうこう|express train
+11|特急|とっきゅう|super express train
+11|～行き|～いき|bound for ~
+11|～方面|～ほうめん|serving ~ areas
+11|乗車券|じょうしゃけん|(boarding) ticket
+11|回数券|かいすうけん|coupons
+11|定期券|ていきけん|commuter's pass
+11|整理券|せいりけん|vouchers, zone tickets
+11|学割|がくわり|student discount
+11|指定席|していせき|reserved seat
+11|自由席|じゆうせき|general admission seat
+11|禁煙車|きんえんしゃ|nonsmoking car
+11|往復|おうふく|round trip
+11|片道|かたみち|one way
+11|～番線|～ばんせん|track number ~
+11|切符売り場|きっぷうりば|ticket vending area
+11|改札|かいさつ|gate
+11|ホーム|ホーム|platform
+11|売店|ばいてん|kiosk
+11|出口|でぐち|exit
+11|入口|いりぐち|entrance
+11|階段|かいだん|stairs
+11|いちばん前|いちばんまえ|first car; front end
+11|いちばん後ろ|いちばぬしろ|last car; tail end
+11|乗り換え|のりかえ|transfer
+11|次は～|つぎは～|next (stop) ~
+11|先発|せんぱつ|departing first
+11|次発|じはつ|departing second
+11|終電|しゅうでん|last train
+11|まもなく発車します|まもうなくはっしゃします|We will be leaving soon
+11|電車が参ります|でんしゃがまいります|A train is arriving
+11|次は～に止まります|つぎは～にとまります|Next (we'll stop at) ~
+11|ドアが閉まります。ご注意ください|ドアがしまります。ごちゅういください|The doors are closing.  Please be careful
+11|この電車は秋葉原に止まりますか|このでんしゃはあきはばらにとまりますか|Does this train stop at Akihabara?
+11|終電は何時ですか|しゅうでんはなんじですか|What time is the last train?
+11|東京までの指定席を一枚お願いします|とうきょうまでのしていせきをいちまいおねがいします|One reserved ticket to Tokyo, please.
+11|学割が使えますか|がくわりがつかえますか|Can I get a student discount?
+12|オーストラッリア|オーストラッリア|Australia
+12|お菓子|おかし|snack, sweets
+12|お正月|おしょうがつ|New Year's
+12|男の子|おとこのこ|boy
+12|おもちゃ|おもちゃ|toy
+12|女の子|おんなのこ|girl
+12|外国|がいこく|foreign country
+12|歌手|かしゅ|singer
+12|キャンプ|キャンプ|camp
+12|こちら|こちら|this person (polite)
+12|今学期|こんがっき|this semester
+12|社長|しゃちょう|president of a company
+12|授業|じゅぎょう|class
+12|将来|しょうらい|future
+12|ドライブ|ドライブ|drive
+12|ビール|ビール|beer
+12|美術館|びじゅつかん|art museum
+12|ホストファミリー|ホストファミリー|host family
+12|湖|みずうみ|lake
+12|山|やま|mountain
+12|夢|ゆめ|dream
+12|ルームメート|ルームメート|roommate
+12|うそをつく|うそをつく|to tell a lie
+12|おなかがつく|おなかがつく|to become hungry
+12|飼う|かう|to own (a pet)
+12|サボる|サボる|to cut classes
+12|取る|とる|to take (a class), to get (a grade)
+12|習う|ならう|to learn
+12|登る|のぼる|to climb
+12|働く|はたらく|to work
+12|疲れる|つかれる|to get tired
+12|やめる|やめる|to quit
+12|けんかする|けんかする|to have a fight, to quarrel
+12|紹介する|しょうかいする|to introduce
+12|ダイエットする|ダイエットする|to go on a diet
+12|遅刻する|ちこくする|to be late (for an appointment)
+12|留学する|りゅうがくする|to study abroad
+12|後|あと|after (an even)
+12|出身|しゅっしん|coming from
+12|すごく|すごく|very
+12|そして|そして|and then
+12|～だけ|～だけ|just ~, only ~
+12|～点|～てん|~ points
+12|久しぶり|ひさしぶり|it has been a long time
+12|まあまあ|まあまあ|okay, so-so
+12|もっと|もっと|more
+12|作家|さっか|writer
+12|警察官|けいさつかん|police officer
+12|俳優|はいゆう|actor or actress
+12|看護婦|かんごふ|nurse
+12|弁護士|べんごし|lawyer
+12|野球選手|やきゅうせんしゅ|baseball player
+12|大統領|だいとうりょう|president of country
+12|ジャーナリスト|ジャーナリスト|journalist
+12|主婦|しゅふ|housewife
+12|女優|じょゆう|actress
+12|消防士|しょうぼうし|firefighter
+12|どちらでもいいです|どちらでもいいです|Both are fine
+12|同じです|おなじです|Same thing
+12|だいたい同じです|だいたいおなじです|More or less the same
+12|ちょっと違います|ちょっとちがいます|A little different
+12|使えません|つかえません|Can't use it
+12|間違っています|まちがっています|It's wrong
+12|手をあげてください|てをあげてください|Raise your hand
+12|読んできてください|よんできてください|Read it before coming to class
+12|宿題を出してください|しゅくだいをだしてください|Hand in the homework
+12|教科書を閉めてください|きょうかしょをしめください|Close the textbook
+12|となりの人に聞いてください|となりのひとをきいてください|Ask the person sitting next to you
+12|やめてください|やめてください|The time is up.  Please stop.
+12|今日はこれで終わります|きょうはこれでおわります|That's it for today
+12|宿題|しゅくだい|homework
+12|しめきり|しめきり|deadline
+12|練習|れんしゅう|exercise
+12|意味|いみ|meaning
+12|発音|はつおん|pronunciation
+12|文法|ぶんぽう|grammar
+12|質問|しつもん|question
+12|答|こたえ|answer
+12|例|れい|example
+12|はっこ|かっこ|(     )
+12|まる|まる|O (correct)
+12|ばつ|ばつ|X (wrong)
+12|くだけた言い方|くだけたいいかた|colloquial expression
+12|かたい言い方|かたいいいかた|bookish expression
+12|ていねいな言い方|ていねいないいかた|polite expression
+12|方言|ほうげん|dialect
+12|標準語|ひょうじゅんご|standard Japanese
+12|たとえば|たとえば|for example
+12|ほかに|ほかに|anything else
+12|～番|～ばん|number ~
+12|～ページ|～ページ|page number ~
+12|～行目|～ぎょうめ|line number ~
+12|二人ずつ|ふたりずつ|two people each
+13|足|あし|leg, foot
+13|意味|いみ|meaning
+13|おなか|おなか|stomach
+13|風邪|かぜ|cold
+13|彼女|かのじょ|girlfriend
+13|彼|かれ|boyfriend
+13|気温|きおん|temperature (weather - not used for things)
+13|曇り|くもり|cloudy weather
+13|試合|しあい|match, game
+13|ジュース|ジュース|juice
+13|政治|せいじ|politics
+13|成績|せいせき|grade (on a test, etc.)
+13|せき|せき|cough
+13|のど|のど|throat
+13|歯|は|tooth
+13|花|はな|flower
+13|晴れ|はれ|sunny weather
+13|服|ふく|clothes
+13|二日酔い|ふつかよい|hangover
+13|プレセント|プレセント|present
+13|ホームシック|ホームシック|homesickness
+13|物|もの|thing (concrete object)
+13|雪|ゆき|snow
+13|用事|ようじ|business to take care of
+13|甘い|あまい|sweet
+13|痛い|いたい|hurt, painful
+13|多い|おおい|there are many ~
+13|狭い|せまい|narrow, not spacious
+13|都合が悪い|つごうがわるい|inconvenient, to have a scheduling conflict
+13|悪い|わるい|bad
+13|素敵|すてき|fantastic
+13|風邪をひく|かぜをひく|to catch a cold
+13|興味がある|きょうみがある|to be interested (in ~)
+13|なくす|なくす|to lose
+13|熱がある|げつがある|to have a fever
+13|のどが渇く|のどがかわく|to become thirsty
+13|せきが出る|せきがでる|to cough
+13|別れる|わかれる|to break up, separate
+13|緊張する|きんちょうする|to get nervous
+13|心配する|しんぱいする|to worry
+13|いつも|いつも|always
+13|お大事に|おだいじに|Get well soon
+13|元気がない|げんきがない|don't look well
+13|多分|たぶん|probably, maybe
+13|できるだけ|できるだけ|as much as possible
+13|～でしょう|～でしょう|probably; ~, right?
+13|～度|～ど|~ degrees (temperature)
+13|二三日|にさんにち|for two to three days
+13|～ので|～ので|because ~
+13|初めて|はじめて|for the first time
+13|もうすぐ|もうすぐ|very soon, in a few moments or days
+13|病気|びょうき|illness
+13|けが|けが|injuries
+13|下痢です|げりです|I have diarrhea
+13|便秘です|べんぴです|I am constipated
+13|生理です|せいりです|I have my period
+13|花粉症です|かふんしょうです|I have hay fever
+13|～にアレルギーがあります|～にアレルギーがあります|I have an allergy to ~
+13|虫歯があります|むしはがあります|I have a bad tooth
+13|くしゃみが出ます|くしゃみがでます|I sneeze
+13|鼻水が出ます|はなみずがでます|I have a runny nose
+13|背中がかゆいです|せなかがかゆいです|My back itches
+13|発疹があります|はっしんがあります|I have rashes
+13|めまいがします|めまいがします|I feel dizzy
+13|吐きました|はきました|I threw up
+13|気分が悪いです|きぶんがわるいです|I am not feeling well
+13|やけどをしました|やけどをしました|I burned myself
+13|足の骨を折りました|あしがほねをのりました|I broke my leg
+13|けがをしました|けがをしました|I hurt myself
+13|内科|ないか|physician
+13|皮膚科|ひふか|dermatologist
+13|外科|げか|surgeon
+13|産婦人科|さんふじんか|obstetrician and gynecologist
+13|整形外科|せいけいげか|orthopedic surgeon
+13|眼科|がんか|ophthamologist
+13|歯科|しか|dentist
+13|耳鼻科|じびか|otorhinolaryngologist, ENT doctor
+13|抗生物質|こうせいぶっしつ|antibiotic
+13|レントゲン|レントゲン|X-ray
+13|手術|しゅじゅつ|operation
+13|注射|ちゅうしゃ|injection
+13|体温計|たいおんけい|thermometer
+14|ウイエイター|ウイエイター|waiter
+14|おじいさん|おじいさん|grandfather, old man
+14|お宅|おたく|(someone's) house or home
+14|大人|おとな|adult
+14|外国語|がいこくご|foreign language
+14|楽器|がっき|musical instrument
+14|空手|からて|karate
+14|カレー|カレー|curry
+14|着物|きもの|kimono, Japanese traditional dress
+14|ケーキ|ケーキ|cake
+14|広告|こうこく|advertisement
+14|紅茶|こうちゃ|tea (black tea)
+14|言葉|ことば|language
+14|ゴルフ|ゴルフ|golf
+14|セーター|セーター|sweater
+14|像|ぞう|elephant
+14|バイオリン|バイオリン|violin
+14|バイク|バイク|motorbike
+14|物価|ぶっか|(consumer) prices
+14|文法|ぶんぽう|grammar
+14|弁護士|べんごし|lawyer
+14|募集|ぼしゅう|recruitment
+14|店|みせ|shop, store
+14|やくざ|やくざ|yakuza (gangster)
+14|約束|やくそく|promise, appointment
+14|レポート|レポート|(term) paper
+14|私|わたくし|I (formal)
+14|うれしい|うれしい|glad
+14|悲しい|かなしい|sad
+14|辛い|からい|hot and spicy, salty
+14|厳しい|きびしい|strict
+14|近い|ちかい|close, near
+14|いろいろ|いろいろ|various, different kinds of
+14|幸せ|しあわせ|happy (lasting happiness)
+14|だめ|だめ|no good
+14|編む|あむ|to knit
+14|貸す|かす|to lend, to rent
+14|頑張る|がんばる|to do one's best, to try hard
+14|泣く|なく|to cry
+14|磨く|みがく|to brush (teeth), to polish
+14|約束を守る|やくそくをまもる|to keep a promise
+14|感動する|かんどうする|to be moved or touched (by ~)
+14|いらっしゃいます|いらっしゃいます|(someone honorable) is present or home
+14|～回|～かい|~ times
+14|～キロ|～キロ|~ kilometers, ~ kilograms
+14|実は|じつは|as a matter of fact ~
+14|全部|ぜんぶ|all
+14|～と申します|～ともうします|my name is ~
+14|よろしくお願いします|よろしくをねがいします|Thank you (in advance)
+14|一日|いちにち|one day
+14|二日|ふつか|two days
+14|三日|みっか|three days
+14|四日|よっか|four days
+14|五日|いつか|five days
+14|六日|むいか|six days
+14|七日|なのか|seven days
+14|八日|ようか|eight days
+14|九日|ここのか|nine days
+14|十日|とうか|ten days
+14|トラベラーズチェック|トラベラーズチェック|traveler's check
+14|口座|こうざ|account
+14|利子|りし|interest
+14|手数料|てすうりょう|commission
+14|キャッシュカード|キャッシュカード|bank card
+14|通帳|つうちょう|passbook
+14|預金|よきん|savings
+14|百円玉|ひゃくえんだま|100-yen coin
+14|金額|きんがく|amount
+14|暗証番号|あんしょうばんごう|personal identification number
+15|兄|あに|(my) older brother
+15|大家さん|おおやさん|landlord
+15|お返し|おかえし|return (as a token of gratitude)
+15|奥さん|おくさん|(your or his) wife
+15|おじさん|おじさん|uncle, middle-aged man
+15|おばさん|おばさん|aunt, middle-aged woman
+15|クラブ|クラブ|club, student society
+15|クリスマス|クリスマス|Christmas
+15|ご主人|ごしゅじん|(your or his) husband
+15|コップ|コップ|tumbler, glass
+15|皿|さら|plate, dish
+15|時間|じかん|time
+15|チョコレート|チョコレート|chocolate
+15|電子メール|でんしメール|e-mail
+15|ぬいぐるみ|ぬいぐるみ|stuffed animal (e.g. teddy bear)
+15|ネクタイ|ネクタイ|necktie
+15|母|はは|(my) mother
+15|バレンタインデー|バレンタインデー|St. Valentine's Day
+15|ビデオカメラ|ビデオカメラ|camcorder
+15|夫婦|ふうふ|married couple, husband and wife
+15|ホワイトデー|ホワイトデー|"White Day" (yet another gift-giving day)
+15|マフラー|マフラー|winter scarf
+15|漫画|まんが|comic book
+15|マンション|マンション|multistory apartment, condominium
+15|みかん|みかん|mandarin
+15|指輪|ゆびわ|ring
+15|ラジオ|ラジオ|radio
+15|両親|りょうしん|parents
+15|履歴書|りれきしょ|resume
+15|欲しい|ほしい|to want (thing)
+15|けち|けち|stingy, cheap
+15|送る|おくる|to send
+15|似合う|にあう|to look good (one somebody)
+15|あきらめる|あきらめる|to give up
+15|あげる|あげる|to give (to others)
+15|くれる|くれる|to give (me)
+15|できる|できる|to come into existence, to be made
+15|相談する|そうだんする|to consult
+15|プロポーズする|プロポーズする|to propose marriage
+15|同じ|おなじ|same
+15|去年|きょねん|last year
+15|～君|～くん|Mr. or Mrs. ~ (casual)
+15|こんな～|こんな～|~ like this, this kind of ~
+15|～たち|～たち|(makes a noun plural)
+15|私たち|わたしたち|we
+15|ちょうど|ちょうど|exactly
+15|よく|よく|well
+15|～個|～こ|(generic counter for smaller items)
+15|～冊|～さつ|(counter for bound volumes)
+15|～台|～だい|(counter for equipment)
+15|～匹|～ひき|(counter for smaller animals)
+15|～本|～ほん|(counter for long objects)
+16|絵|え|painting, picture, drawing
+16|映画館|えいがかん|movie theater
+16|外国人|がいこくじん|foreigner
+16|家具|かぐ|furniture
+16|観光|かんこう|sightseeing
+16|結婚式|けっこんしき|wedding
+16|地震|じしん|earthquake
+16|締め切り|しめきり|deadline
+16|ジャケット|ジャケット|jacket
+16|習慣|しゅうかん|custom
+16|税金|ぜいきん|tax
+16|卒業式|そつぎょうしき|graduation ceremony
+16|そば|そば|soba, Japanese buckwheat noodles
+16|地図|ちず|map
+16|電池|でんち|battery
+16|庭|にわ|garden
+16|発表|はっぴょう|presentation
+16|番組|ばんぐみ|broadcast program
+16|プール|プール|swimming pool
+16|ペット|ペット|pet
+16|予定|よてい|schedule
+16|旅館|りょかん|inn
+16|割引券|わりびきけん|discount coupon
+16|広い|ひろい|spacious, wide
+16|売る|うる|to sell
+16|下ろす|おろす|to withdraw (money)
+16|かく|かく|to draw, to paint
+16|探す|さがす|to look for
+16|誘う|さそう|to inivite
+16|付き合う|つきあう|to date (someone), to keep company
+16|着く|つく|to arrive
+16|保険に入る|ほけんにはいる|to buy insurance
+16|気をつける|きをつける|to be cautious, careful
+16|調べる|しらべる|to look into (a matter)
+16|捨てる|すてる|to throw away
+16|見える|みえる|to be visible
+16|する|する|to decide on (an item)
+16|卒業する|そつぎょうする|to graduate (from ~)
+16|予約する|よやくする|to reserve
+16|一日中|いちにちじゅう|all day long
+16|～けど|～けど|~ but, ~ so
+16|最近|さいきん|recently
+16|～について|～について|about ~, concerning ~
+16|～番|～ばん|number ~
+16|～目|～め|-th
+16|もう一度|もういちど|one more time
+16|ホテル|ホテル|Western-style hotel
+16|ビジネスホテル|ビジネスホテル|business hotel
+16|ユースホステル|ユースホステル|youth hostel
+16|旅館|りょかん|Japanese-style inn
+16|民宿|みんしゅく|guest house
+16|～泊|～はく|~ nights
+16|何百|なんばく|how many nights
+16|一泊|いっぱく|one night
+16|二泊|にはく|two nights
+16|三泊|さんばく|three nights
+16|四泊|よんばく|four nights
+16|～付|～つき|with ~
+16|食事付|しょくじつき|with meals
+16|一泊二食付|いっぱくにしょくつき|one night with two meals
+16|チェックインする|チェックインする|checking in
+16|チェックアウトする|チェックアウトする|checking out
+16|シングル|シングル|single room
+16|ダブル|ダブル|double room
+16|ツイン|ツイン|twin room
+16|～名|～めい|~ person(s)
+16|フロント|フロント|receptionist, front desk
+17|駅員|えきいん|station attendant
+17|親|おや|parent
+17|ごみ|ごみ|garbage
+17|砂糖|さとう|sugar
+17|奨学金|しょうがくきん|scholarship
+17|親せき|しんせき|relatives
+17|推薦状|すいせんじょう|letter of recommendation
+17|大学院|だいがくいん|graduate school
+17|台風|たいふう|typhoon
+17|日|ひ|day
+17|ファイル|ファイル|file, portfolio
+17|道|みち|way, road, directions
+17|目覚まし時計|めざましとけい|alarm clock
+17|汚い|きたない|dirty
+17|起こす|おこす|to wake (someone) up
+17|おごる|おごる|to treat (someone) to a meal
+17|落ち込む|おちこむ|to get depressed
+17|困る|こまる|to have difficulty
+17|出す|だす|to take (something) out, to hand in (something)
+17|連れていく|つれていく|to take (someone) to (a place)
+17|直す|なおす|to correct, to fix
+17|道に迷う|みちにまよう|to become lost, lose one's way
+17|訳す|やくす|to translate
+17|笑う|わらう|to laugh
+17|アイロンをする|アイロンをする|to iron (clothes)
+17|集める|あつめる|to collect
+17|入れる|いれる|to put (something) in
+17|乗り遅れる|のりおくれる|to miss (a train, bus, etc.)
+17|見せる|みせる|to show
+17|朝寝坊する|あさねぼうする|to oversleep
+17|案内する|あんないする|to show (someone) around
+17|説明する|せつめいする|to explain
+17|迎えに来る|むかえにくる|to come to pick up (someone)
+17|ええと|ええと|well ~, let me see ~
+17|今日中に|きょうじゅうに|by the end of today
+17|この間|このだいだ|the other day
+17|このぐらい|このぐらい|about this much
+17|ごめん|ごめん|I'm sorry (casual)
+17|失礼します|しつれいします|Excuse me, Sorry to interrupt you
+17|自分で|じぶんで|(do something) oneself
+17|授業中に|じゅぎょうちゅうに|in class, during the class
+17|ほかの|ほかの|other
+18|お客さん|おきゃくさん|guest, visitor, client, customer
+18|男|おとこ|man
+18|お湯|おゆ|hot water
+18|女|おんな|woman
+18|かぎ|かぎ|lock, key
+18|紙|かみ|paper
+18|給料|きゅうりょう|salary
+18|コンタクト|コンタクト|contact lenses
+18|最低|さいてい|the lowest, the worst
+18|サラリーマン|サラリーマン|salaryman, company employee
+18|残業|ざんぎょう|overtime work
+18|ストーブ|ストーブ|heater
+18|宝くじ|たからくじ|lottery
+18|違い|ちがい|difference
+18|ニュース|ニュース|news
+18|ひげ|ひげ|beard
+18|秘密|ひみつ|secret
+18|寮|りょう|dormitory
+18|旅行会社|りょこうがいしゃ|travel agency
+18|うらやましい|うらやまし|envious
+18|少ない|すくない|a little, a few
+18|強い|つよい|strong
+18|選ぶ|えらぶ|to choose, to select
+18|お湯を沸かす|おゆをわかす|to boil water
+18|髪をとかす|かみをとかす|to comb one's hair
+18|込む|こむ|to get crowded
+18|宝くじに当たる|たからくじにあたる|to win a lottery
+18|脱ぐ|ぬぐ|to take off (clothes)
+18|ひげをそる|ひげをそる|to shave one's beard
+18|いれる|いれる|to make tea, coffee, etc.
+18|かぎをかける|かぎをかける|to lock
+18|足りる|たりる|to be sufficient; to be enough
+18|慣れる|なれる|to get used to ...
+18|化粧する|けしょうする|to put makeup on
+18|就職する|しゅうしょくする|to get a full-time job
+18|する|する|to wear small items (necktie, watch, etc.)
+18|離婚する|りこんする|to get a divorce
+18|おめでとうございます|おめでとうございます|Congradulations!
+18|～かな（あ）|～かな（あ）|I wonder ... (casual)
+18|自分|じぶん|oneself
+18|ずいぶん|ずいぶん|very
+18|そうか|そうか|I see (casual)
+18|それに|それに|moreover ...
+18|例えば|たとえば|for example
+18|～に比べて|～にくらべて|compared with ...
+18|～によると|～によると|according to ...
+18|前|まえ|before ...
+18|やっぱり|やっぱり|after all
+18|カット（パーマ）を願いします|カット（パーマ）おねがいします|I would like to have a hair cut (permanent)
+18|あまり短くしないでください|あまりみじかくしないでください|Please don't make it too short
+18|そらないでください|そらないでください|Please don't shave
+18|３センチぐらい切ってください|さんセンチぐらいきってください|Please cut off about 3 centimeters
+18|後ろをそろえてください|うしろをそろえてください|Please cut the back all the same length
+18|赤にそめてください|あかにそめてください|Please dye my hair in red
+18|ボブマーリーたいな髪型にしたいんですが|ボブマーリーたいなかみがたにしたいんですが|I want my hair to be like Bob Marley's (showing the picture)
+18|シャンプー|シャンプー|shampoo
+18|カット|カット|cut
+18|ブロー|ブロー|blow-dry
+18|パーマ|パーマ|permanent
+18|セット|セット|set
+18|髪型|かみがた|hair style
+18|もみあげ|もみあげ|sideburns
+18|切る|きる|to cut
+18|そる|そる|to shave
+18|苅る|かる|to crop
+18|そめる|そめる|to dye
+18|そろえる|そろえる|to make hair even; to trim
+18|マーパをかける|マーパをかける|to have one's hair permed
+19|後|あと|the rest
+19|エアコン|エアコン|air conditioner
+19|カーテン|カーテン|curtain
+19|牛乳|ぎゅうにゅう|milk
+19|シャンプー|シャンプー|shampoo
+19|しょう油|しょうゆ|soy sauce
+19|スイッチ|スイッチ|switch
+19|スカート|スカート|skirt
+19|外|そと|outside
+19|タオル|タオル|towel
+19|日記|にっき|diary
+19|ポップコーン|ポップコーン|popcorn
+19|家賃|やちん|rent
+19|夕方|ゆうがた|evening
+19|ラジカセ|ラジカセ|cassette player with a radio
+19|留守番電話|るすばんでんわ|answering machine
+19|冷蔵庫|れいぞうこ|refrigerator
+19|ろうそく|ろうそく|candle
+19|明るい|あかるい|bright
+19|気分が悪い|きぶんがわるい|to feel sick
+19|恥ずかしい|はずかしい|embarassing, to feel embarassed
+19|開く|あく|(something) opens
+19|謝る|あやまる|to apologize
+19|押す|おす|to press, to push
+19|落す|おとす|to drop (something)
+19|お湯が沸く|おゆがわく|water boils
+19|転ぶ|ころぶ|to fall down
+19|壊す|こわす|to break (something)
+19|咲く|さく|to bloom
+19|閉まる|しまる|(something) closes
+19|助かる|たすかる|to be saved, to be helped
+19|頼む|たのむ|to ask (a favor)
+19|つく|つく|(something) turns on
+19|汚す|よごす|to make dirty
+19|落ちる|おちる|(something) drops
+19|考える|かんがえる|to think (about), to consider
+19|消える|きえる|(something) goes off
+19|壊れる|こわれる|(something) breaks
+19|汚れる|よごれる|to become dirty
+19|注文する|ちゅうもんする|to place an order
+19|今すぐ|いますぐ|right away
+19|おかげで|おかげで|thanks to ...
+19|お先に失礼します|おさきにしつれいします|See you (lit. I'm leaving ahead of you)
+19|お疲れ様（でした）|おつかれさま（でした）|You must be tired after working so hard (ritualistic expression)
+19|～（ん）だろう|～（ん）だろう|short form of ~(n) deshoo
+19|どうしよう|どうしよう|What should I (we) do?
+19|本当に|ほんとうに|really
+19|まず|まず|first of all
+19|～までに|～までに|by (time or date)
+20|奥様|おくさま|(your or his) wife (polite)
+20|お子さん|おこさん|(your or their) child (polite)
+20|お礼|おれい|expression of gratitude
+20|敬語|けいご|honorific language
+20|こちら|こちら|this way (polite)
+20|出張|しゅっちょう|business trip
+20|種類|しゅるい|a kind; a sort
+20|性格|せいかく|personality
+20|中学生|ちゅうがくせい|junior high school student
+20|どちら|どちら|where (polite)
+20|怠け者|なまけもの|lazy person
+20|悩み|なやみ|worry
+20|恥ずかしがり屋|はずかしがりや|shy person
+20|話|はなし|chat, talk
+20|部長|ぶちょう|department manager
+20|文化|ぶんか|culture
+20|間違い|まちがい|mistake
+20|仲がいい|なかがいい|be on good or close terms, to get along well
+20|まじめ|まじめ|serious, sober, diligent
+20|いらっしゃる|いらっしゃる|honorific expression for iku, kuru, and iru
+20|送る|おくる|to walk or drive (someone)
+20|怒る|おこる|to get angry
+20|おっしゃる|おっしゃる|honorific expression for iu
+20|お休みになる|おやすみになる|honorific expression for neru
+20|決まる|きまる|to be decided
+20|下さる|くださる|honorific expression for kureru
+20|ご覧になる|ごらんになる|honorific expression for miru
+20|知り合う|しりあう|to get acquainted with
+20|～ていらっしゃる|～ていらっしゃる|honorific expression for -te iru
+20|なさる|なさる|honorific expression for suru
+20|引っ越す|ひっこす|to move (to another place to live)
+20|召し上がる|めしあがる|honorific expression for taberu and nomu
+20|呼ぶ|よぶ|to call (one's name), to invite
+20|寄る|よる|to stop by
+20|遅れる|おくれる|to become late
+20|かける|かける|to sit down
+20|晴れる|はれる|to become sunny
+20|もてる|もてる|to be popular (in terms of romantic interest)
+20|遠慮する|えんりょする|to hold back for the time being, to refrain from
+20|ごちそうする|ごちそうする|to treat or invite (someone) to a meal
+20|招待する|しょうたいする|to invite someone (to an event or a place)
+20|注意する|ちゅういする|to watch out, to give warning
+20|話をする|はなしをする|to have a talk
+20|おととい|おととい|the day before yesterday
+20|なぜ|なぜ|why (= dooshite)
+20|本当は|ほんとうは|in fact, originally
+20|毎朝|まいあさ|every morning
+20|まだ|まだ|still
+20|～名様|～めいさま|party of ... people
+20|ようこそ|ようこそ|Welcome
+20|よろしくお伝えください|よろしくおつたえください|Please give my best regards (to ...)
+21|あちら|あちら|that way (polite)
+21|宇宙人|うちゅうじん|space alien
+21|音|おと|sound
+21|係の者|かかりのもの|our person in charge
+21|角|かど|corner
+21|神様|かみさま|God
+21|空港|くうこう|airport
+21|字|じ|letter, character
+21|支店|してん|branch office
+21|趣味|しゅみ|hobby, pastime
+21|小説|しょうせつ|novel
+21|信号|しんごう|traffic light
+21|スニーカー|スニーカー|sneakers
+21|扇子|せんす|fan
+21|月|つき|moon
+21|ハイヒール|ハイヒール|high heels
+21|～屋|～や|... shop
+21|ゆうべ|ゆうべ|last night
+21|重い|おもい|heavy, serious (illness)
+21|歩く|あるく|to walk
+21|致す|いたす|extra-modest expression for suru
+21|頂く|いただく|extra-modest expression for taberu and nomu
+21|頂く|いただく|humble expression for morau
+21|伺う|うかがう|to humbly visit, to humbly ask
+21|おる|おる|extra-modest expression for iru
+21|ござる|ござる|extra-modest expression for aru
+21|～ておる|～ておる|extra-modest expression for -te iru
+21|～でござる|～でござる|extra-modest expression for desu
+21|参る|まいる|extra-modest expression for iku and kuru
+21|曲がる|まがる|to turn (right or left)
+21|申す|もうす|extra-modest expression for iu
+21|戻る|もどる|to return, to come back
+21|聞こえる|きこえる|to be audible
+21|差し上げる|さしあげる|humble expression for ageru
+21|伝える|つたえる|to convey (message)
+21|待たせる|またせる|to keep (someone) waiting
+21|交換する|こうかんする|to exchange
+21|生活する|せいかつする|to lead a life
+21|返品する|へんぴんする|to return (merchandise)
+21|おや|おや|Oh!
+21|～階|～かい|... the floor
+21|かしこまりました|かしこまりました|Certainly
+21|さあ|さあ|I am not sure ...
+21|失礼しました|しつれいしました|I'm very sorry
+21|少々|しょうしょう|a few seconds
+21|それでは|それでは|if that is the case ...
+21|できれば|できれば|if possible
+21|誠に|まことに|really (very polite)
+21|また|また|again
+21|～みたいなＸ|～みたいなＸ|X such as ...
+21|申し訳ありません|もうしわけありません|You have my apologies
+21|よろしかったら|よろしかったら|if it is okay (polite)
+21|まっすぐ行く|まっすぐいく|to go straight
+21|～を越える|～をこえる|to pass ...
+22|赤ちゃん|あかちゃん|baby
+22|蚊|か|mosquito
+22|会議|かいぎ|business meeting, conference
+22|ガソリン|ガソリン|gasoline
+22|環境|かんきょう|environment
+22|警察|けいさつ|police, police station
+22|工場|こうじょう|factory
+22|事|こと|things, matters
+22|終電|しゅうでん|last train
+22|スピーチ|スピーチ|speech
+22|政府|せいふ|government
+22|ちかん|ちかん|sexual offender, lascivious man
+22|同僚|どうりょう|colleague
+22|泥棒|どろぼう|thief, burglar
+22|バイト|バイト|abbreviation of arubaito
+22|犯人|はんにん|criminal
+22|ポスター|ポスター|poster
+22|昔|むかし|old days, past
+22|文句|もんく|complaint
+22|文句を言う|もんくをいう|to complain
+22|留守|るす|absence, not at home
+22|遠い|とおい|far (away)
+22|ひどい|ひどい|awful
+22|安全|あんぜん|safe
+22|大切|たいせつ|precious, valuable
+22|めちゃくちゃ|めちゃくちゃ|mesy, disorganized
+22|置く|おく|to put, to lay, to place
+22|気が付く|きがつく|to notice
+22|ける|ける|to kick
+22|刺す|さす|to string, to bite (bug), to stab
+22|触る|さわる|to touch
+22|捕まる|つかまる|to be arrested, to be caught
+22|包む|つつむ|to wrap, to cover
+22|殴る|なぐる|to strike, to hit, to punch
+22|盗む|ぬすむ|to steal, to rob
+22|貼る|はる|to post
+22|踏む|ふむ|to step on
+22|ふる|ふる|to turn down (somebody), to reject, to jilt
+22|焼く|やく|to bake
+22|やる|やる|to give (to pets, plants, younger siblings, etc.)
+22|いじめる|いじめる|to bully
+22|着替える|きがえる|to change clothes
+22|ためる|ためる|to save money
+22|続ける|つづける|to continue
+22|ほめる|ほめる|to praise, to say nice things
+22|間違える|まちがえる|to make a mistake
+22|見つける|みつける|to find
+22|準備する|じゅんびする|to prepare
+22|ばかにする|ばかにする|to insure, to make a fool of ...
+22|びっくりする|びっくりする|to be surprised
+22|昼寝をする|ひるねをする|to take a nap
+22|連絡する|れんらくする|to contact
+22|～間に|～あいだに|while ...
+22|ころ|ころ|time of ..., when ...
+22|少し|すこし|a little
+22|とにかく|とにかく|anyhow, anyway
+22|強盗|ごうとう|robber
+22|詐欺|さぎ|fraud
+22|詐欺師|さぎし|con man or woman
+22|ストーカー|ストーカー|stalker
+22|すり|すり|pickpocket
+22|ちかん|ちかん|sexual offender
+22|万引き|まんびき|shoplifting
+22|誘拐|ゆうかい|kidnapping
+22|レイプ|レイプ|rape
+22|襲う|おそう|to attack
+22|ける|ける|to kick
+22|殺す|ころす|to murder, to kill
+22|する|する|to pick one's pockets
+22|だます|だます|to deceive
+22|つける|つける|to follow
+22|殴る|なぐる|to punch, to strike, to hit
+22|盗む|ぬすむ|to steal
+22|ひく|ひく|(a car) run over
+22|ゆする|ゆする|to blackmail, to threaten
+23|相手|あいて|partner
+23|受付|うけつけ|reception desk
+23|英会話|えいかいわ|English conversation
+23|お嬢さん|おじょうさん|(someone's) daughter (polite)
+23|家事|かじ|household matters
+23|風|かぜ|wind
+23|木|き|tree
+23|期末試験|きまつしけん|final examination
+23|後輩|こうはい|junior members of a group
+23|猿|さる|monkey
+23|自由|じゆう|freedom
+23|塾|じゅく|cram school
+23|書類|しょるい|document
+23|先輩|せんぱい|senior members of a group
+23|一人暮らし|ひとりぐらし|living alone
+23|部下|ぶか|subordinate
+23|復習|ふくしゅう|review of lessons
+23|プロジェクト|プロジェクト|project
+23|ボール|ボール|ball
+23|無駄遣い|むだづかい|waste (money)
+23|免許|めんきょ|license
+23|予習|よしゅう|preparation of lessons
+23|うるさい|うるさい|noisy, annoying
+23|心配|しんぱい|worried about
+23|貧乏|びんぼう|poor
+23|ぺらぺら|ぺらぺら|fluent
+23|変|へん|strange, unusual
+23|楽|らく|easy, comfortable
+23|勝つ|かつ|to win
+23|コピーをとる|コピーをとる|to make a photocopy
+23|運ぶ|はこぶ|to carry
+23|走る|はしる|to run
+23|拾う|ひろう|to pick up (something)
+23|吹く|ふく|to blow
+23|放っとく|ほっとく|to leave (something or someone) alone, to neglect
+23|間に合う|まにあう|to be in time
+23|迎えに行く|むかえにいく|to go to pick up (someone)
+23|計画を立てる|けいかくをたてる|to make a plan
+23|育てる|そだてる|to raise, to bring up
+23|助ける|たすける|to help, to rescue
+23|負ける|まける|to lose (a match)
+23|お願いする|おねがいする|to pray for help
+23|賛成する|さんせいする|to agree
+23|失敗する|しっぱいする|to fail, to be unsuccessful
+23|徹夜する|てつやする|to stay up all night
+23|反対する|はんたいする|to oppose, to object to
+23|翻訳する|ほんやくする|to translate
+23|こんなふう|こんなふう|in this way
+23|ずっと|ずっと|for a long time, all the time
+23|絶対に|ぜったいに|definitely
+23|そんなこと（は）ない|そんなこと（は）ない|I don't think so
+23|～とか|～とか|... for example
+23|何度も|なんども|many times
+23|のんびり|のんびり|in a leisurely way
+23|もう少し|もうすこし|a little more
+24|思い出|おもいで|memory
+24|海外旅行|かいがいりょこう|trip to a foreign country
+24|体|からだ|body
+24|靴下|くつした|socks
+24|国際電話|こくさいでんわ|international call
+24|授業料|じゅぎょうりょう|tuition
+24|小学校|しょうがっこう|elementary school
+24|選挙|せんきょ|election
+24|タイヤ|タイヤ|tire
+24|ただ|ただ|free of charge
+24|場所|ばしょ|place
+24|別荘|べっそう|villa, vacation home
+24|ボーナス|ボーナス|bonus
+24|盆踊り|ぼんおどり|Bon dance (Japanese traditional dance)
+24|面接|めんせつ|interview
+24|夕食|ゆうしょく|dinner
+24|理想|りそう|ideal
+24|留守番|るすばん|looking after a house during one's absence
+24|まずい|まずい|(food is) terrible
+24|雨がやむ|あめがやむ|the rain stops
+24|いなくなる|いなくなる|(someone) is gone, to disappear
+24|お世話になる|おせわになる|to be in someone's care
+24|おなかをこわす|おなかをこわす|to have a stomachache
+24|違う|ちがう|to be different, wrong
+24|なくなる|なくなる|to be lost, to disappear
+24|悪口を言う|わるぐちをいう|to talk behind someone's back
+24|受ける|うける|to take (an examination, interview, etc.)
+24|換える|かえる|to change
+24|離れる|はなれる|(something or someone) separates, parts from
+24|～顔をする|～かおをする|to look ... (facial expression)
+24|がっかりする|がっかりする|to be disappointed
+24|我慢する|がまんする|to be tolerant or patient
+24|世話をする|せわをする|to take care of ...
+24|同情する|どうじょうする|to sympathize
+24|パンクする|パンクする|(tire) goes flat
+24|戻ってくる|もどってくる|(someething or someone) comes back
+24|優勝する|ゆうしょうする|to win a championship
+24|いや|いや|no
+24|元気でね|げんきでね|Take care of yourself
+24|そうそう|そうそう|You are right
+24|そろそろ|そろそろ|it is about time to ....
+24|そんな～|そんな～|such ..., that kind of ...
+24|ものすごく|ものすごく|extremely

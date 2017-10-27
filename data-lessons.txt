@@ -1,8 +1,24 @@
-1,Memrise: Japanese 1
-2,Genki Ch. 1
-3,Genki Ch. 2
-4,Genki Ch. 3
-5,Genki Ch. 3 Verbs
-6,Duolingo - Food 1
-7,Duolingo - Direction 1
-8,Duolingo - Random
+1|Genki I Intro
+2|Genki I Lesson 1
+3|Genki I Lesson 2
+4|Genki I Lesson 3
+5|Genki I Lesson 4
+6|Genki I Lesson 5
+7|Genki I Lesson 6
+8|Genki I Lesson 7
+9|Genki I Lesson 8
+10|Genki I Lesson 9
+11|Genki I Lesson 10
+12|Genki I Lesson 11
+13|Genki I Lesson 12
+14|Genki II Lesson 13
+15|Genki II Lesson 14
+16|Genki II Lesson 15
+17|Genki II Lesson 16
+18|Genki II Lesson 17
+19|Genki II Lesson 18
+20|Genki II Lesson 19
+21|Genki II Lesson 20
+22|Genki II Lesson 21
+23|Genki II Lesson 22
+24|Genki II Lesson 23

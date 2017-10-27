@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import curses, os, sys, getopt, random
@@ -29,17 +29,18 @@ doInvert = False
 
 def getSides(card):
 	if doInvert:
-		return 'side2', 'side1'
-	return 'side1', 'side2'
+		return 'side3', 'side2', 'side1'
+	return 'side2', 'side3', 'side1'
 
 logFile = open('trainer.log', 'w')
 
 def debug(s):
-	logFile.write(s.encode('utf-8') + '\n')
+	#logFile.write(str(s.encode('utf-8')) + '\n')
+	logFile.write(str(s) + '\n')
 	logFile.flush()
 
 def pretty(obj):
-	print json.dumps(obj, sort_keys=True, indent=4, separators=(',', ': '))
+	print(json.dumps(obj, sort_keys=True, indent=4, separators=(',', ': ')))
 
 def getAllLessons():
 	return {'lessons': db.query('SELECT ROWID, * FROM lesson')}
@@ -57,14 +58,15 @@ def getCardsInLessons(lessonIDs):
 		''')
 	return {'cards': data}
 
-def drawCenterXY(w, s, yoff = 0, xoff = 0):
+def drawCenterXY(w, s, yoff = 0, xoff = 0, cursorReset=True):
 	(y, x) = w.getmaxyx()
 	l = len(s.encode('utf-8'))
 	try:
-		w.addstr(y/2 + yoff, xoff, s.encode('utf-8'))
-	except:
-		pass
-	w.move(0, 0)
+		w.addstr(int(y/2 + yoff), int(xoff), s.encode('utf-8'))
+	except Exception as e:
+		debug('addstr() failed: ' + str(e))
+	if cursorReset:
+		w.move(0, 0)
 
 def drawCenter(w, s, yoff = 0):
 	drawCenterXY(w, s, yoff, 4)
@@ -119,9 +121,20 @@ def randomCard(cards, notThisCard):
 		card = cards[n]
 	return card
 
-def drawQuestion(win, card, cardList):
+def drawCard(win, card, showAll = False):
 	win.clear()
-	pri, sec = getSides(card)
+	pri, sec, ter = getSides(card)
+	drawCenter(win, card[pri])
+	if showAll:
+		drawCenter(win, card[ter], -1)
+		drawCenter(win, card[sec], 1)
+	win.refresh()
+	t = len(card[pri]) * 0.75 * 1000
+	win.timeout(int(t))
+
+def drawChoiceQuestion(win, card, cardList):
+	win.clear()
+	pri, sec, ter = getSides(card)
 	drawCenterXY(win, card[pri], -1, 4)
 
 	answers = [randomCard(cardList, card) for i in range(3)]
@@ -146,12 +159,12 @@ def drawQuestion(win, card, cardList):
 			return n+1
 	raise Exception('Couldn\'t find card in answer list?!')
 
-def runQuiz(win, lessonIDs, doRandom):
+def runChoiceQuiz(win, lessonIDs, doRandom):
 	cards = getCardsInLessons(lessonIDs)['cards']
 	i = Counter(0, len(cards)-1, prandom=doRandom)
 	card = cards[i.get()]
-	pri, sec = getSides(card)
-	answer = drawQuestion(win, card, cards)
+	pri, sec, ter = getSides(card)
+	answer = drawChoiceQuestion(win, card, cards)
 	while 1:
 		try:
 			key = win.getkey()
@@ -161,7 +174,7 @@ def runQuiz(win, lessonIDs, doRandom):
 			elif key in ('KEY_LEFT'):
 				i.prev()
 			elif key in ('KEY_RESIZE'):
-				answer = drawQuestion(win, card, cards)
+				answer = drawChoiceQuestion(win, card, cards)
 				continue
 			elif key in ('1', '2', '3', '4', 'a', 'b', 'c', 'd'):
 				#if ord(key) >= ord('a'):
@@ -175,23 +188,79 @@ def runQuiz(win, lessonIDs, doRandom):
 					debug('Wrong!')
 					drawCard(win, card, showAll=True)
 					continue
+			elif key in ('z'):
+				debug('Showing info.')
+				drawCard(win, card, showAll=True)
+				continue
 			else:
 				i.next()
 		except curses.error:
 			debug('Timer: ' + str(curses.error))
 			i.next()
 		card = cards[i.get()]
-		answer = drawQuestion(win, card, cards)
+		answer = drawChoiceQuestion(win, card, cards)
 
-def drawCard(win, card, showAll = False):
+def drawTypingQuestion(win, card, cardList, userInput=[]):
 	win.clear()
-	pri, sec = getSides(card)
-	drawCenter(win, card[pri])
-	if showAll:
-		drawCenter(win, card[sec], 1)
+	pri, sec, ter = getSides(card)
+	drawCenterXY(win, card[pri], 0, 4)
+
+	s = ''.join(userInput)
+
+	drawCenterXY(win, '> ' + s, 1, cursorReset=False)
+
 	win.refresh()
-	t = len(card[pri]) * 0.75 * 1000
-	win.timeout(int(t))
+	win.timeout(-1)
+
+def runTypingQuiz(win, lessonIDs, doRandom):
+	cards = getCardsInLessons(lessonIDs)['cards']
+	i = Counter(0, len(cards)-1, prandom=doRandom)
+	card = cards[i.get()]
+	pri, sec, ter = getSides(card)
+	showAnswer = False
+	answer = []
+
+	drawTypingQuestion(win, card, cards, answer)
+	while 1:
+		try:
+			char = win.get_wch()
+
+			debug('str: {} -> {}'.format(char, ord(char)))
+
+			if showAnswer:
+				# Goto next card.
+				showAnswer = False
+				i.next()
+			elif ord(char) == 127:
+				# Backspace
+				answer = answer[:-1]
+			elif char in ('\n'):
+				s_answer = ''.join(answer)
+				if s_answer == card[sec]:
+					debug('{} matches {}'.format(s_answer, card[sec]))
+					i.next()
+					card = cards[i.get()]
+				else:
+					showAnswer = True
+					debug('{} does not match {}'.format(s_answer, card[sec]))
+				answer = []
+			else:
+				answer.append(char)
+	
+		except curses.error:
+			debug('Timer: ' + str(curses.error))
+			i.next()
+			card = cards[i.get()]
+			showAnswer = False
+
+		try:
+			if showAnswer:
+				drawCard(win, card, showAll=True)
+			else:
+				drawTypingQuestion(win, card, cards, answer)
+		except:
+			debug('Draw exception: ' + str(curses.error))
+
 
 def runCards(win, lessonIDs, doRandom):
 	cards = getCardsInLessons(lessonIDs)['cards']
@@ -231,7 +300,8 @@ options = [
 	('l','lessons','List of all lessons.'),
 	('c','cards','List all cards in lessons fro -t.'),
 	('r','random','Randomize cards when training.'),
-	('q','quiz','Present multiple choice quiz questions.'),
+	('q','choice-quiz','Present multiple choice quiz questions.'),
+	('w','typing-quiz','Present typing quiz questions.'),
 	('i','invert','Invert cards so you are quized on the card backs.')]
 shortOpt = "".join([opt[0] for opt in options])
 longOpt = [opt[1] for opt in options]
@@ -257,21 +327,29 @@ def main():
 	doLessonList = False
 	doCardList = False
 	doRandom = False
-	doQuiz = False
+	doChoiceQuiz = False
+	doTypingQuiz = False
 	for o, a in opts:
 		if o in ('-h', '--help'):
 			usage()
 		elif o in ('-t', '--train'):
-			if int(a) != 0:
-				lessonIDs.append(int(a))
+			IDranges = a.split(",")
+			for r in IDranges:
+				start, sep, stop = r.partition('-')
+				if stop == '':
+					stop = start
+				for i in range(int(start), int(stop) + 1):
+					lessonIDs.append(i)
 		elif o in ('-l', '--lessons'):
 			doLessonList = True
 		elif o in ('-c', '--cards'):
 			doCardList = True
 		elif o in ('-r', '--random'):
 			doRandom = True
-		elif o in ('-q', '--quiz'):
-			doQuiz = True
+		elif o in ('-q', '--choice-quiz'):
+			doChoiceQuiz = True
+		elif o in ('-w', '--typing-quiz'):
+			doTypingQuiz = True
 		elif o in ('-i', '--invert'):
 			doInvert = True
 		elif o in ('-n', '--number-choice'):
@@ -283,8 +361,10 @@ def main():
 		pretty(getAllLessons())
 	elif doCardList:
 		pretty(getCardsInLessons(lessonIDs))
-	elif doQuiz:
-		wrapper(runQuiz, lessonIDs, doRandom)
+	elif doChoiceQuiz:
+		wrapper(runChoiceQuiz, lessonIDs, doRandom)
+	elif doTypingQuiz:
+		wrapper(runTypingQuiz, lessonIDs, doRandom)
 	else:
 		wrapper(runCards, lessonIDs, doRandom)
 

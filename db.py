@@ -44,16 +44,17 @@ class DB():
 		for l in lessons:
 			if len(l) <= 0:
 				continue
-			row = l.rstrip().split(',')
+			row = l.rstrip().split('|')
 			c.execute("INSERT INTO lesson(rowid,name) VALUES (?,?)", row)
 
 		for r in lang:
 			if len(r) <= 0:
 				continue
-			lesson_rowid, jp, en = r.rstrip().split(',')
+			lesson_rowid, kanji, kana, en = r.strip().split('|')
+			kanji = unicode(kanji, "utf-8").rstrip()
+			kana = unicode(kana, "utf-8").rstrip()
 			en = unicode(en, "utf-8").rstrip()
-			jp = unicode(jp, "utf-8").rstrip()
-			c.execute("INSERT INTO card VALUES (?,?,?)", (en, jp, ""))
+			c.execute("INSERT INTO card VALUES (?,?,?,?)", (kanji, kana, en, ""))
 
 			card_rowid = c.lastrowid
 			last_seen = datetime.datetime.utcnow()
