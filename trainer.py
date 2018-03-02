@@ -25,12 +25,13 @@ def choiceToIndex(choice):
 		n -= ord('a') - ord('1')
 	return int(chr(n))
 
-doInvert = False
+minWait = 1500
 
-def getSides(card):
-	if doInvert:
-		return 'side3', 'side2', 'side1'
-	return 'side2', 'side3', 'side1'
+doPresetSides = False
+sides = [2,3,1]
+
+def getSides():
+	return ('side' + str(i) for i in sides)
 
 logFile = open('trainer.log', 'w')
 
@@ -121,20 +122,23 @@ def randomCard(cards, notThisCard):
 		card = cards[n]
 	return card
 
+def getTimeout(string):
+	t = len(string) * 0.75 * 1000
+	return int(max(t, minWait))
+
 def drawCard(win, card, showAll = False):
 	win.clear()
-	pri, sec, ter = getSides(card)
+	pri, sec, ter = getSides()
 	drawCenter(win, card[pri])
 	if showAll:
 		drawCenter(win, card[ter], -1)
 		drawCenter(win, card[sec], 1)
 	win.refresh()
-	t = len(card[pri]) * 0.75 * 1000
-	win.timeout(int(t))
+	win.timeout(getTimeout(card[pri]))
 
 def drawChoiceQuestion(win, card, cardList):
 	win.clear()
-	pri, sec, ter = getSides(card)
+	pri, sec, ter = getSides()
 	drawCenterXY(win, card[pri], -1, 4)
 
 	answers = [randomCard(cardList, card) for i in range(3)]
@@ -163,7 +167,7 @@ def runChoiceQuiz(win, lessonIDs, doRandom):
 	cards = getCardsInLessons(lessonIDs)['cards']
 	i = Counter(0, len(cards)-1, prandom=doRandom)
 	card = cards[i.get()]
-	pri, sec, ter = getSides(card)
+	pri, sec, ter = getSides()
 	answer = drawChoiceQuestion(win, card, cards)
 	while 1:
 		try:
@@ -202,7 +206,7 @@ def runChoiceQuiz(win, lessonIDs, doRandom):
 
 def drawTypingQuestion(win, card, cardList, userInput=[]):
 	win.clear()
-	pri, sec, ter = getSides(card)
+	pri, sec, ter = getSides()
 	drawCenterXY(win, card[pri], 0, 4)
 
 	s = ''.join(userInput)
@@ -216,7 +220,7 @@ def runTypingQuiz(win, lessonIDs, doRandom):
 	cards = getCardsInLessons(lessonIDs)['cards']
 	i = Counter(0, len(cards)-1, prandom=doRandom)
 	card = cards[i.get()]
-	pri, sec, ter = getSides(card)
+	pri, sec, ter = getSides()
 	showAnswer = False
 	answer = []
 
@@ -298,11 +302,13 @@ options = [
 	('h','help','This help.'),
 	('t:','train=','Training mode.'),
 	('l','lessons','List of all lessons.'),
-	('c','cards','List all cards in lessons fro -t.'),
+	('c','cards','List all cards in lessons from -t.'),
 	('r','random','Randomize cards when training.'),
 	('q','choice-quiz','Present multiple choice quiz questions.'),
-	('w','typing-quiz','Present typing quiz questions.'),
-	('i','invert','Invert cards so you are quized on the card backs.')]
+	('y','typing-quiz','Present typing quiz questions.'),
+	('i','invert','Invert cards so you are quized on the card backs.'),
+	('s:','sides=','Set the primary, secondary and tertiary card sides.'),
+	('w:','wait=','Minimum wait time for each card in milleseconds.')]
 shortOpt = "".join([opt[0] for opt in options])
 longOpt = [opt[1] for opt in options]
 
@@ -321,7 +327,7 @@ def main():
 		print(str(err))
 		usage()
 
-	global doInvert, doNumberChoice
+	global sides, minWait, doNumberChoice
 
 	lessonIDs = []
 	doLessonList = False
@@ -348,15 +354,21 @@ def main():
 			doRandom = True
 		elif o in ('-q', '--choice-quiz'):
 			doChoiceQuiz = True
-		elif o in ('-w', '--typing-quiz'):
+		elif o in ('-y', '--typing-quiz'):
 			doTypingQuiz = True
 		elif o in ('-i', '--invert'):
-			doInvert = True
+			sides = [3,2,1]
+		elif o in ('-s', '--sides'):
+			if len(a) != 3:
+				raise Exception('Must specify all three sides as -s xyz')
+			sides = [int(c) for c in a]
+		elif o in ('-w', '--wait'):
+			minWait = int(a)
 		elif o in ('-n', '--number-choice'):
 			doNumberChoice = True
 		else:
 			assert False, 'Unhandled option: ' + str(o)
-	
+
 	if doLessonList:
 		pretty(getAllLessons())
 	elif doCardList:

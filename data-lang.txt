@@ -1733,3 +1733,217 @@
 24|そろそろ|そろそろ|it is about time to ....
 24|そんな～|そんな～|such ..., that kind of ...
 24|ものすごく|ものすごく|extremely
+25|一|いち|One
+25|｜|ぼう|Rod
+25|丶|てん|Dot
+25|ノ|の|Kana no
+25|乙|おつ|Fishhook
+25|亅|はねぼう|Barb
+25|二|に|Two
+25|亠|なべぶた|Lid
+25|人|ひと|Man
+25|儿|ひとあし|Legs
+25|入|いる|Entering
+25|八|はち|Eight
+25|冂|どうがまえ まきがまえ けいがまえ|Upside-down box
+25|冖|わかんむり べきかんむり|Kana wa
+25|冫|にすい|Ice
+25|几|つくえ きにょう かぜがまえ|Windy
+25|凵|うけばこ かんがまえ|Open Box
+25|刀|かたな|Sword
+25|力|ちから|Strong
+25|勹|つつみがまえ|Wrapping
+25|匕|さじ ヒ|Kana hi
+25|匚|はこがまえ|Box on side
+25|匸|かくしがまえ|Hiding
+25|十|じゅう|Cross
+25|卜|うらない|Kana to
+25|卩|わりふ ふしずくり|Seal
+25|厂|がんだれ いちだれ|Cliff
+25|厶|む|Kana mu
+25|又|また|Again
+25|口|くち|Mouth
+25|囗|くにがまえ|Box
+25|土|つち|Earth
+25|士|さむらい|Samurai
+25|夂|ふゆがしら なつあし すいにょう|Winter
+25|夂|すい ゆく|Winter Variant
+25|夕|ゆうべ た|Kana ta
+25|大|だい|Big
+25|女|おんな|Woman
+25|子|こ|Child
+25|宀|うかんむり|Kana u
+25|寸|すん|Inch
+25|小|しょう|Little
+25|尢|だいのまげあし もっとも|Crooked big
+25|尸|しかばね かばね|Flag
+25|屮|ふるくさ|Old grass
+25|山|やま|Mountain
+25|川|かわ さんぼんかわ|River
+25|工|え|Kana e
+25|已|おのれ|Snake
+25|巾|はば きん きれ|Cloth
+25|干|かん いちじゅう|One Ten
+25|幺|いとがしら|Short thread
+25|广|まだれ|Dotted Cliff
+25|廴|えんにょう いんにょう いんにゅう|Streching
+25|廾|にじゅう|Letter H
+25|弋|しきがまえ|Ceremony
+25|弓|ゆみ|Bow
+25|ヨ|けいがしら いのかしら よ|Pig's head
+25|彡|かみかざり|Short hair
+25|彳|ぎょうにんべん|Going man
+25|心|こころ|Heart
+25|戈|ほこ|Tasseled spear
+25|戸|と とがしら かんむり とだれ|Door
+25|手|て|Hand
+25|支|し えだ じゅうまた|Branch
+25|攵|ぼく とまた|Folding Chair
+25|文|ぶん|Literary
+25|斗|と とます|Dots and cross
+25|斤|きん おの|Axe
+25|方|ほう かた|Direction
+25|无|む なし|Crooked heaven
+25|日|ひ にち|Sun
+25|曰|いわく ひらび|Flat sun
+25|月|つき|Moon
+25|木|き|Tree
+25|欠|あくび けん けつ かける|Yawning
+25|止|とめる|Stopping
+25|歹|いちた がつ|Death
+25|殳|るまた|Windy again
+25|母|はは かんのはは なかれ|Mother
+25|比|くらべる|Comparing
+25|毛|け|Fur
+25|氏|うじ|Clan
+25|气|きがまえ|Steam
+25|水|すい みず|Water
+25|火|ひ か|Fire
+25|爪|つめ|Claw
+25|父|ちち|Father
+25|爻|まじわる|Double X
+25|爿|ひだりかた しょうへん|Left side
+25|片|みぎかた かたへん|Right side
+25|牙|きば|Tusk
+25|牛|うし|Cow
+25|犬|いぬ|Dog
+25|玄|げん|Dark
+25|玉|たま|Jewel
+25|瓜|うり|Melon
+25|瓦|かわら|Tile
+25|甘|あまい|Sweet
+25|生|うまれる|Birth
+25|用|もちいる|Using
+25|田|た|Rice field
+25|疋|ひき|Animal Counter
+25||やまいだれ|Sick
+25|癶|はつがしら|Dotted tent
+25|白|しろい|White
+25|皮|けがわ ひのかわ|Skin
+25|皿|さら|Dish
+25|目|め|Eye
+25|矛|ほこ|Spear
+25|矢|や|Arrow
+25|石|いし|Stone
+25|示|しめす|Showing
+25||じゅう あしあと|Footprint
+25|禾|のぎ|2-Branch tree
+25|穴|あなかんむり|Cave
+25|立|たつ|Stanging
+25|竹|たけ|Bamboo
+25|米|こめ|Rice
+25|糸|いと|Long thread
+25|缶|みずがめ|Jar
+25||あみがしら めがしら よこめ|Net
+25|羊|ひつじ|Sheep
+25|羽|はね|Wing
+25|老|ろう おい|Old man
+25|而|しかして|Rake
+25|耒|すきへん らいすき|3-Branch tree
+25|耳|みみ|Ear
+25|聿|ふで|Brush
+25|肉|にく|Meat
+25|臣|しん けらい|Minister (of state
+25|自|みずから|Dotted eye
+25|至|いたる|Arriving
+25|臼|うす|Mortar
+25|舌|した|Tongue
+25|舛|まいあし ます|Dancing
+25|舟|ふねへん|Ship
+25|艮|ねずくり|Good
+25|色|いろ|Color
+25|艸|くさ|Grass
+25|虍|とらかんむり とらがしら|Tiger
+25|虫|むし|Bug
+25|血|ち|Dotted Dish
+25|行|ゆきがまえ ぎょうがまえ|Going
+25|衣|ころも|Clothing
+25|西|にし|West
+25|見|みる|Seeing
+25|角|つの|Horn
+25|言|ことば|speaking
+25|谷|たに|Valley
+25|豆|まめ|Bean
+25|豕|ぶた いのこ|Pig
+25|豸|むじな|Clawed dog
+25|貝|かい こがい|Small shell
+25|赤|あか|Red
+25|走|はしる|Running
+25|足|あし|Foot
+25|身|み|Body
+25|車|くるま|Car
+25|辛|からい|Bitter
+25|辰|たつ|
+25||しんにゅう|Road
+25|邑|ゆう|Right village
+25|酉|とり ひよりのとり|Sake
+25|釆|のごめ|Topped rice
+25|里|さと り|Village
+25|金|かね|Metal
+25|長|ながい|Long
+25|門|もん かど|Gate
+25|阜|こざと|Left village
+25|隶|れいずくり|Slave
+25|隹|ふるとり|Old Bird
+25|雨|あめ|Rain
+25|青|あおい|Blue
+25|非|あらず|Negative
+25|面|めん|Face
+25|革|つくりかわ かくのかわ|Shoe leather
+25|韋|なめしがわ|
+25|韭|にら|Leek
+25|音|おと|Noisy
+25|頁|おおがい いちのかい ページ|Big shell
+25|風|かぜ|Wind
+25|飛|とぶ|Flying
+25|食|しょく|Food
+25|首|くび|Neck
+25|香|におい かおり|Perfume
+25|馬|うま|Horse
+25|骨|ほね|Bone
+25|高|たかい|High
+25|髟|かみ|Long hai
+25|鬥|とう たたかい とうがまえ たたかいがまえ|Broken gate
+25|鬯|かおりぐさ|Herb
+25|鬲|あしあかまえ|Tripod
+25|鬼|おに|Devil
+25|魚|さかな うお|Fish
+25|鳥|とり|Bird
+25|鹵|しお|Salt
+25|鹿|しか|Deer
+25|麦|むぎ|Wheat
+25|麻|あさ|Hemp
+25|黄|きいろ|Yellow
+25|黍|きび|Millet
+25|黒|くろい|Black
+25|黹|ぬう|Sewing
+25|黽|あおがえる|Frog
+25|鼎|かまえ|Kettle
+25|鼓|つずみ|Drum
+25|鼠|ねずみ|Rat
+25|鼻|はな|Nose
+25|斉|さい ひとしい|Mr. Saito
+25|歯|は|Tooth
+25|龍|たつ|Big Dragon
+25|亀|かめ|Turtle
+25|龠|ふえ|Flute

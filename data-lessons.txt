@@ -22,3 +22,4 @@
 22|Genki II Lesson 21
 23|Genki II Lesson 22
 24|Genki II Lesson 23
+25|Radicals

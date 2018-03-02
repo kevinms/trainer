@@ -51,9 +51,17 @@ class DB():
 			if len(r) <= 0:
 				continue
 			lesson_rowid, kanji, kana, en = r.strip().split('|')
-			kanji = unicode(kanji, "utf-8").rstrip()
-			kana = unicode(kana, "utf-8").rstrip()
-			en = unicode(en, "utf-8").rstrip()
+
+			# For python 2 support:
+			#kanji = unicode(kanji, "utf-8").rstrip()
+			#kana = unicode(kana, "utf-8").rstrip()
+			#en = unicode(en, "utf-8").rstrip()
+
+			# For python 3 support:
+			kanji = kanji.rstrip()
+			kana = kana.rstrip()
+			en = en.rstrip()
+
 			c.execute("INSERT INTO card VALUES (?,?,?,?)", (kanji, kana, en, ""))
 
 			card_rowid = c.lastrowid
