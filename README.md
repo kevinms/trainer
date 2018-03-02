@@ -2,7 +2,7 @@
 
 A text-based language training program that runs in a terminal with zero GUI dependencies.
 
-## Continuously Rotating Cards
+### Continuously Rotating Cards
 Example: ```./trainer.py -t 4-7 --random```
 ```
 
@@ -22,7 +22,7 @@ Press ```z``` to show detailed information.
 
 ```
 
-## Multiple Choice Quiz
+### Multiple Choice Quiz
 Example: ```./trainer.py -t 1-7 -r --choice-quiz```
 ```
 
@@ -32,7 +32,7 @@ Example: ```./trainer.py -t 1-7 -r --choice-quiz```
 
 ```
 
-## Typing Quiz
+### Typing Quiz
 Example: ```./trainer.py -t 1-7 -r --typing-quiz```
 ```
 
